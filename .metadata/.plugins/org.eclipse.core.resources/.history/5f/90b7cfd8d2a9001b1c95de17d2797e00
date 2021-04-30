@@ -1,5 +1,0 @@
-package com.hugs.feign.resource;
-
-public class EstadoResource {
-
-}

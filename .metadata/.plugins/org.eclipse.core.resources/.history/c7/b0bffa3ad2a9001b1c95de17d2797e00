@@ -1,5 +1,0 @@
-package com.hugs.feign.service;
-
-public class EstadoService {
-
-}
