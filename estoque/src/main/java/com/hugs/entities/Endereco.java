@@ -1,7 +1,5 @@
 package com.hugs.entities;
 
-import java.time.LocalDateTime;
-
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
@@ -23,8 +21,6 @@ public class Endereco {
 	@Id @GeneratedValue(strategy = GenerationType.IDENTITY)
 	private Long id;
 	
-	private LocalDateTime dataCadastro;
-
 	private String tipoLogradouro;
 	
 	private String nomeLogradouro;

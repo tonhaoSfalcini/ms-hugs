@@ -1,5 +1,7 @@
 package com.hugs.services;
 
+import java.util.List;
+
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
@@ -20,16 +22,18 @@ public class ClienteService {
 		return response;
 	}
 	
+	public List<Cliente> getClients(){
+		return clienteRepository.findAll();
+	}
+	
 	public Cliente convertDtoToEntity(ClienteDTO dto) {
-		Cliente cliente = new Cliente(	dto.getId(), 
+		Cliente cliente = new Cliente(	
+										null,//	dto.getId(), 
 										dto.getCpfCnpj(), 
 										dto.getNomeRazaoSocial(),
 										dto.getTipoPessoa(),
 										dto.getDataNascimentoConstituicao(),
-										dto.getEmail(),
-										dto.getEndereco_1(),
-										dto.getEndereco_2(),
-										dto.getEndereco_3(),
+										dto.getEmail(), null, null, null,
 										dto.getWhatsApp(),
 										dto.getTelefone_1(),
 										dto.getTelefone_2(),
@@ -42,15 +46,13 @@ public class ClienteService {
 	}
 	
 	public ClienteDTO convertEntityToDto(Cliente cliente) {
-		ClienteDTO dto = new ClienteDTO(cliente.getId(), 
+		ClienteDTO dto = new ClienteDTO(
+//										cliente.getId(), 
 										cliente.getCpfCnpj(), 
 										cliente.getNomeRazaoSocial(),
 										cliente.getTipoPessoa(),
 										cliente.getDataNascimentoConstituicao(),
 										cliente.getEmail(),
-										cliente.getEndereco_1(),
-										cliente.getEndereco_2(),
-										cliente.getEndereco_3(),
 										cliente.getWhatsApp(),
 										cliente.getTelefone_1(),
 										cliente.getTelefone_2(),

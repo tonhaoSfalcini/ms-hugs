@@ -1,0 +1,32 @@
+package com.hugs.dto;
+
+import java.time.LocalDateTime;
+
+import com.hugs.entities.Cidade;
+
+import lombok.AllArgsConstructor;
+import lombok.Data;
+import lombok.NoArgsConstructor;
+
+@Data @NoArgsConstructor @AllArgsConstructor
+public class EnderecoDTO {
+	
+//	private Long id;
+	
+	private LocalDateTime dataCadastro;
+
+	private String tipoLogradouro;
+	
+	private String nomeLogradouro;
+	
+	private Integer numero;
+	
+	private String bairro;
+	
+	private Cidade cidade;
+	
+	private String cep;
+	
+	private String referencia;
+	
+}

@@ -1,0 +1,40 @@
+package com.hugs.dto;
+
+import java.time.LocalDate;
+import java.time.LocalDateTime;
+
+import javax.persistence.JoinColumn;
+import javax.persistence.ManyToOne;
+import javax.validation.constraints.Email;
+import javax.validation.constraints.NotNull;
+import javax.validation.constraints.Past;
+import javax.validation.constraints.Size;
+
+import com.hugs.entities.Cidade;
+import com.hugs.entities.Endereco;
+
+import lombok.AllArgsConstructor;
+import lombok.Data;
+import lombok.NoArgsConstructor;
+
+@Data @NoArgsConstructor @AllArgsConstructor
+public class EnderecoDTO {
+	private Long id;
+	
+	private LocalDateTime dataCadastro;
+
+	private String tipoLogradouro;
+	
+	private String nomeLogradouro;
+	
+	private Integer numero;
+	
+	private String bairro;
+	
+	private Cidade cidade;
+	
+	private String cep;
+	
+	private String referencia;
+	
+}

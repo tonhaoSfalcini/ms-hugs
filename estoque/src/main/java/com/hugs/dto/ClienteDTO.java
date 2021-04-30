@@ -7,8 +7,6 @@ import javax.validation.constraints.NotNull;
 import javax.validation.constraints.Past;
 import javax.validation.constraints.Size;
 
-import com.hugs.entities.Endereco;
-
 import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
@@ -16,7 +14,7 @@ import lombok.NoArgsConstructor;
 @Data @NoArgsConstructor @AllArgsConstructor
 public class ClienteDTO {
 
-	private Long id;
+//	private Long id;
 
 	@NotNull
 	@Size(min = 11, max = 14)
@@ -26,14 +24,12 @@ public class ClienteDTO {
 	@Size(min = 2, max = 2)
 	private String tipoPessoa;
 	
-	@Past
+	@Past(message = "Data de nascimento inválida.")
 	private LocalDate dataNascimentoConstituicao;
 	
-	@Email
+	@NotNull
+	@Email(message = "Por favor, informe um e-mail válido")
 	private String email;
-	private Endereco endereco_1;
-	private Endereco endereco_2;
-	private Endereco endereco_3;
 	private String whatsApp;
 	
 	@Size(min = 8, max = 12)

@@ -1,0 +1,17 @@
+package com.hugs.dto;
+
+import com.hugs.entities.Estado;
+
+import lombok.AllArgsConstructor;
+import lombok.Builder;
+import lombok.Data;
+import lombok.NoArgsConstructor;
+
+@Data @NoArgsConstructor @AllArgsConstructor @Builder
+public class Mesorregiao{
+	private Long id;
+	private String nome;
+	@Builder.Default
+	private Estado uf = new Estado();
+	
+}

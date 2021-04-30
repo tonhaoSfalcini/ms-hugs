@@ -1,0 +1,50 @@
+package com.hugs.services;
+
+import org.springframework.stereotype.Service;
+
+import com.hugs.dto.CidadeIbgeDTO;
+import com.hugs.dto.ClienteDTO;
+import com.hugs.entities.Cidade;
+import com.hugs.entities.Cliente;
+
+@Service
+public class CidadeService {
+	
+	public Cidade convertDtoToEntity(CidadeIbgeDTO dto) {
+		Cliente cidade = new Cliente(	
+										null,//	dto.getId(), 
+										dto.getCpfCnpj(), 
+										dto.getNomeRazaoSocial(),
+										dto.getTipoPessoa(),
+										dto.getDataNascimentoConstituicao(),
+										dto.getEmail(), null, null, null,
+										dto.getWhatsApp(),
+										dto.getTelefone_1(),
+										dto.getTelefone_2(),
+										dto.getTelefone_3(),
+										dto.getPermiteMktWhatsapp(),
+										dto.getPermiteMktSms(),
+										dto.getPermiteMktEmail());
+		
+		return cidade;
+	}
+	
+	public CidadeIbgeDTO  convertEntityToDto(Cidade cidade) {
+		ClienteDTO dto = new ClienteDTO(
+//										cliente.getId(), 
+										cidade.getCpfCnpj(), 
+										cidade.getNomeRazaoSocial(),
+										cidade.getTipoPessoa(),
+										cidade.getDataNascimentoConstituicao(),
+										cidade.getEmail(),
+										cidade.getWhatsApp(),
+										cidade.getTelefone_1(),
+										cidade.getTelefone_2(),
+										cidade.getTelefone_3(),
+										cidade.getPermiteMktWhatsapp(),
+										cidade.getPermiteMktSms(),
+										cidade.getPermiteMktEmail());
+		
+		return dto;
+	}
+}

@@ -2,6 +2,7 @@ package com.hugs.entities;
 
 import java.time.LocalDate;
 
+import javax.persistence.Column;
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
@@ -24,6 +25,7 @@ public class Cliente {
 	@Id @GeneratedValue(strategy = GenerationType.IDENTITY)
 	private Long id;
 	
+	@Column(nullable = false, length = 14)
 	private String cpfCnpj;
 	
 	private String nomeRazaoSocial;
@@ -35,17 +37,17 @@ public class Cliente {
 	private String email;
 	
 	@ManyToOne
-	@JoinColumn(name = "endereco_1_id", nullable = false)
+	@JoinColumn(name = "endereco_1_id")
 	@Builder.Default
 	private Endereco endereco_1 = new Endereco();
 	
 	@ManyToOne
-	@JoinColumn(name = "endereco_2_id", nullable = false)
+	@JoinColumn(name = "endereco_2_id")
 	@Builder.Default
 	private Endereco endereco_2 = new Endereco();
 	
 	@ManyToOne
-	@JoinColumn(name = "endereco_3_id", nullable = false)
+	@JoinColumn(name = "endereco_3_id")
 	@Builder.Default
 	private Endereco endereco_3 = new Endereco();;
 	

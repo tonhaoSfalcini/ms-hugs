@@ -16,3 +16,18 @@
 1619743924626	Copy compilation units
 1619744926167	Copy compilation unit
 1619746625317	Move compilation unit
+1619784712742	Copy compilation unit
+1619789958697	Copy compilation unit
+1619790261646	Rename field 'clienteRepository'
+1619791685282	Rename local variable 'cliente'
+1619802913936	Copy compilation unit
+1619802979380	Copy compilation unit
+1619803023750	Copy compilation unit
+1619803824301	Copy compilation unit
+1619803877151	Rename local variable 'cliente'
+1619804157477	Copy compilation unit
+1619804163692	Copy compilation unit
+1619804252571	Rename type 'Mesorregiao'
+1619804683652	Rename type 'CidadeService'
+1619804689360	Rename type 'EstadoService'
+1619804724104	Rename field 'service'
