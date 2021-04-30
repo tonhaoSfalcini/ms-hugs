@@ -1,0 +1,50 @@
+package com.hugs.entities;
+
+import java.math.BigDecimal;
+import java.time.LocalDateTime;
+
+import javax.persistence.Entity;
+import javax.persistence.GeneratedValue;
+import javax.persistence.GenerationType;
+import javax.persistence.Id;
+import javax.persistence.JoinColumn;
+import javax.persistence.ManyToOne;
+
+import lombok.Getter;
+import lombok.Setter;
+
+@Entity(name = "tb_pedidoitem")
+public class PedidoItem {
+
+	@Getter
+	@Id @GeneratedValue(strategy = GenerationType.IDENTITY)
+	private Long id;
+	
+	@Getter @Setter
+	private LocalDateTime dataCadastro;
+
+	@Getter @Setter
+	@ManyToOne
+	@JoinColumn(name = "pedido_id", nullable = false)
+	private Pedido pedido;
+
+	@Getter @Setter
+	@ManyToOne
+	@JoinColumn(name = "pedidoentrega_id", nullable = false)
+	private PedidoEntrega entrega;
+	
+	@Getter @Setter
+	private BigDecimal valorUnitario;
+	
+	@Getter @Setter
+	private BigDecimal quantidade;
+	
+	@Getter @Setter
+	private BigDecimal valorDesconto;
+	
+	@Getter @Setter
+	private BigDecimal valorLiquido;
+	
+	@Getter @Setter
+	private String observacoes;
+}

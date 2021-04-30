@@ -1,0 +1,41 @@
+package com.hugs.repositories;
+
+import java.math.BigDecimal;
+import java.time.LocalDateTime;
+
+import javax.persistence.Entity;
+import javax.persistence.GeneratedValue;
+import javax.persistence.GenerationType;
+import javax.persistence.Id;
+import javax.persistence.JoinColumn;
+import javax.persistence.ManyToOne;
+
+import lombok.Getter;
+import lombok.Setter;
+
+@Entity(name = "tb_custohistorico")
+public class CustoHistorico {
+
+	@Getter
+	@Id @GeneratedValue(strategy = GenerationType.IDENTITY)
+	private Long id;
+	
+	@Getter @Setter
+	@ManyToOne
+	@JoinColumn(name = "custo_id", nullable = false)
+	private Custo custo;
+	
+	@Getter @Setter
+	private String descricao;
+	
+	@Getter @Setter
+	@ManyToOne
+	@JoinColumn(name = "unidadeMedida_id", nullable = false)
+	private UnidadeMedida unidadeMedida;
+
+	@Getter @Setter
+	private BigDecimal valorUnitario;
+	
+	@Getter @Setter
+	private LocalDateTime dataCadastro;
+}

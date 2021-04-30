@@ -1,0 +1,24 @@
+package com.hugs.entities;
+
+import javax.persistence.Entity;
+import javax.persistence.GeneratedValue;
+import javax.persistence.GenerationType;
+import javax.persistence.Id;
+
+import lombok.Getter;
+import lombok.Setter;
+
+@Entity(name = "tb_pedido")
+public class Pedido {
+
+	@Getter
+	@Id @GeneratedValue(strategy = GenerationType.IDENTITY)
+	private Long id;
+	
+	@Getter @Setter
+	private LocalDateTime dataCadastro;
+
+	@Getter @Setter
+	private String nome;
+	
+}

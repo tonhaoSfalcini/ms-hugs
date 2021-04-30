@@ -1,0 +1,39 @@
+package com.hugs.services;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
+
+import com.hugs.dto.ClienteDTO;
+import com.hugs.entities.Cliente;
+import com.hugs.repositories.ClienteRepository;
+
+@Service
+public class ClienteService {
+	
+	@Autowired 
+	ClienteRepository clienteRepository;
+
+	public Cliente createClient() {
+		
+		return new Cliente();
+	}
+	
+	public Cliente convertDtoToEntity(ClienteDTO dto) {
+		Cliente cliente = new Cliente(	dto.getId(), 
+										dto.getCpfCnpj(), 
+										dto.getNomeRazaoSocial(),
+										dto.getTipoPessoa(),
+										dto.getDataNascimentoConstituicao(),
+										dto.getEmail(),
+										dto.getEndereco_1(),
+										dto.getEndereco_2(),
+										dto.getEndereco_3(),
+										dto.getWhatsApp(),
+										dto.getTelefone_1(),
+										dto.getTelefone_2(),
+										dto.getTelefone_3(),
+										dto.getPermiteMktWhatsapp(),
+										dto.getPermiteMktSms(),
+										dto.getPermiteMktEmail());
+	}
+}

@@ -1,0 +1,39 @@
+package com.hugs.repositories;
+
+import java.math.BigDecimal;
+
+import javax.persistence.Entity;
+import javax.persistence.GeneratedValue;
+import javax.persistence.GenerationType;
+import javax.persistence.Id;
+import javax.persistence.JoinColumn;
+import javax.persistence.OneToOne;
+
+import lombok.Getter;
+import lombok.Setter;
+
+@Entity(name = "tb_estoque")
+public class Estoque {
+
+	@Getter
+	@Id @GeneratedValue(strategy = GenerationType.IDENTITY)
+	private Long id;
+	
+	@Getter @Setter
+	@OneToOne
+	@JoinColumn(name = "produto_id", nullable = false)
+	private Produto produto;
+
+	@Getter @Setter
+	private BigDecimal quantidade;
+	
+	@Getter @Setter
+	private BigDecimal custoMedio;
+	
+	@Getter @Setter
+	private BigDecimal custoMinimo;
+	
+	@Getter @Setter
+	private BigDecimal custoMaximo;
+	
+}

@@ -1,0 +1,18 @@
+package com.hugs.services;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
+
+import com.hugs.repositories.ClienteRepository;
+
+@Service
+public class ClienteService {
+	
+	@Autowired 
+	ClienteRepository clienteRepository;
+
+	public Cliente createClient() {
+		
+		return new Cliente();
+	}
+}

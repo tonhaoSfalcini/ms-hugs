@@ -1,0 +1,44 @@
+package com.hugs.entities;
+
+import java.time.LocalDate;
+
+import javax.persistence.Entity;
+import javax.persistence.GeneratedValue;
+import javax.persistence.GenerationType;
+import javax.persistence.Id;
+
+import lombok.Getter;
+import lombok.Setter;
+
+@Entity(name = "tb_cliente")
+public class Cliente {
+
+	@Getter
+	@Id @GeneratedValue(strategy = GenerationType.IDENTITY)
+	private Long id;
+	
+	@Getter @Setter
+	private String cpfCnpj;
+	
+	@Getter @Setter
+	private String nomeRazaoSocial;
+
+	@Getter @Setter
+	private String tipoPessoa;
+	
+	@Getter @Setter
+	private LocalDate dataNascimentoConstituicao;
+	
+	@Getter @Setter
+	private String email;
+	
+	@Getter @Setter
+	private Endereco endereco_1;
+	
+	@Getter @Setter
+	private Endereco endereco_2;
+	
+	@Getter @Setter
+	private Endereco endereco_3;
+	
+}

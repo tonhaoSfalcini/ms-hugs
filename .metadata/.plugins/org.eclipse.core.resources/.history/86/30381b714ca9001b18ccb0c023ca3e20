@@ -1,0 +1,27 @@
+package com.hugs.entities;
+
+import javax.persistence.Entity;
+import javax.persistence.GeneratedValue;
+import javax.persistence.GenerationType;
+import javax.persistence.Id;
+
+import lombok.Getter;
+import lombok.Setter;
+
+@Entity(name = "tb_cidade")
+public class Cidade {
+
+	@Getter
+	@Id @GeneratedValue(strategy = GenerationType.IDENTITY)
+	private Long id;
+	
+	@Getter @Setter
+	private Integer codigoIbge;
+
+	@Getter @Setter
+	private String nome;
+	
+	@Getter @Setter
+	private Estado estado;
+	
+}
