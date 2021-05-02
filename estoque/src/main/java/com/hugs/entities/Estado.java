@@ -5,17 +5,14 @@ import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
 import javax.persistence.Id;
 
-import lombok.AccessLevel;
 import lombok.AllArgsConstructor;
-import lombok.Getter;
+import lombok.Data;
 import lombok.NoArgsConstructor;
-import lombok.Setter;
 
-@AllArgsConstructor @NoArgsConstructor @Getter @Setter
+@AllArgsConstructor @NoArgsConstructor @Data
 @Entity(name = "tb_estado")
 public class Estado {
 
-	@Setter(value = AccessLevel.NONE)
 	@Id @GeneratedValue(strategy = GenerationType.IDENTITY)
 	private Long id;
 	

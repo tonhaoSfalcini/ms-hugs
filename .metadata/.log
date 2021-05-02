@@ -8354,3 +8354,1584 @@ java.lang.IllegalArgumentException:
 	at java.base/java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1665)
 	at java.base/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1598)
 	at java.base/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:183)
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-04-30 17:01:57.667
+!MESSAGE ClasspathListenerHandler removeClasspathListener sts4.classpath.vOhgFYjy
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-04-30 17:01:57.667
+!MESSAGE unsubscribing from classpath changes: sts4.classpath.vOhgFYjy
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-04-30 17:01:57.667
+!MESSAGE subsribers = {}
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-04-30 17:01:57.668
+!MESSAGE ClasspathListenerHandler removeClasspathListener sts4.classpath.vOhgFYjy => OK
+!SESSION 2021-05-02 13:09:16.871 -----------------------------------------------
+eclipse.buildId=4.10.0.202103111225
+java.version=15.0.2
+java.vendor=Oracle Corporation
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=pt_BR
+Framework arguments:  -product org.springframework.boot.ide.branding.sts4
+Command-line arguments:  -os linux -ws gtk -arch x86_64 -product org.springframework.boot.ide.branding.sts4
+
+!ENTRY org.eclipse.jface 2 0 2021-05-02 13:09:24.242
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2021-05-02 13:09:24.242
+!MESSAGE A conflict occurred for CTRL+SHIFT+T:
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.navigate.open.type,Open Type,
+		Open a type in a Java editor,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@40a84ea8,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.lsp4e.symbolinworkspace,Go to Symbol in Workspace,
+		,
+		Category(org.eclipse.lsp4e.category,Language Servers,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@79c849c7,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-05-02 13:09:29.706
+!MESSAGE Entering DelegatingStreamConnectionProvider()
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-05-02 13:09:29.706
+!MESSAGE DelegatingStreamConnectionProvider classloader = org.eclipse.osgi.internal.loader.EquinoxClassLoader@58ec11d4[org.springframework.tooling.boot.ls:1.25.0.202103111026(id=548)]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-05-02 13:09:29.709
+!MESSAGE SpringBootLanguageServer exists!
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-05-02 13:09:29.734
+!MESSAGE Instantiating ReusableClasspathListenerHandler
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-05-02 13:09:33.613
+!MESSAGE Boot LS startup time from start to initialized: 3898ms
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-05-02 13:09:33.700
+!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.JMnJjCYPisBatched = true
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-05-02 13:09:33.702
+!MESSAGE Setting up ClasspathListenerManager
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-05-02 13:09:33.704
+!MESSAGE Scheduling initial event for all projects ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-05-02 13:09:33.705
+!MESSAGE Scheduling initial event for all projects DONE
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-05-02 13:09:33.705
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-05-02 13:09:33.705
+!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.JMnJjCYP => OK
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-05-02 13:09:33.711
+!MESSAGE classpath=114 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-05-02 13:09:33.712
+!MESSAGE buffering callback sts4.classpath.JMnJjCYP estoque false 114
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-05-02 13:09:33.712
+!MESSAGE executing callback sts4.classpath.JMnJjCYP 1 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-05-02 13:09:34.142
+!MESSAGE executing callback sts4.classpath.JMnJjCYP SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-05-02 13:22:11.134
+!MESSAGE ClasspathListenerHandler removeClasspathListener sts4.classpath.JMnJjCYP
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-05-02 13:22:11.134
+!MESSAGE unsubscribing from classpath changes: sts4.classpath.JMnJjCYP
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-05-02 13:22:11.134
+!MESSAGE subsribers = {}
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-05-02 13:22:11.134
+!MESSAGE ClasspathListenerHandler removeClasspathListener sts4.classpath.JMnJjCYP => OK
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-05-02 13:22:12.620
+!MESSAGE Entering DelegatingStreamConnectionProvider()
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-05-02 13:22:12.621
+!MESSAGE DelegatingStreamConnectionProvider classloader = org.eclipse.osgi.internal.loader.EquinoxClassLoader@58ec11d4[org.springframework.tooling.boot.ls:1.25.0.202103111026(id=548)]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-05-02 13:22:12.621
+!MESSAGE SpringBootLanguageServer exists!
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-05-02 13:22:14.364
+!MESSAGE Boot LS startup time from start to initialized: 1743ms
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-05-02 13:22:14.425
+!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.zhoPfHDCisBatched = true
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-05-02 13:22:14.426
+!MESSAGE Setting up ClasspathListenerManager
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-05-02 13:22:14.426
+!MESSAGE Scheduling initial event for all projects ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-05-02 13:22:14.426
+!MESSAGE Scheduling initial event for all projects DONE
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-05-02 13:22:14.426
+!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.zhoPfHDC => OK
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-05-02 13:22:14.428
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-05-02 13:22:14.430
+!MESSAGE classpath=114 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-05-02 13:22:14.431
+!MESSAGE buffering callback sts4.classpath.zhoPfHDC estoque false 114
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-05-02 13:22:14.431
+!MESSAGE executing callback sts4.classpath.zhoPfHDC 1 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-05-02 13:22:14.716
+!MESSAGE executing callback sts4.classpath.zhoPfHDC SUCCESS [done]
+
+!ENTRY org.eclipse.ui 2 2 2021-05-02 13:25:41.478
+!MESSAGE Invalid property category path: org.springframework.ide.eclipse.beans.ui.properties.ProjectPropertyPage (bundle: org.springframework.ide.eclipse.xml.namespaces, propertyPage: org.springframework.ide.eclipse.beans.ui.namespaces.projectPropertyPage)
+
+!ENTRY org.eclipse.wildwebdeveloper.xml 4 0 2021-05-02 13:28:34.025
+!MESSAGE 
+!STACK 0
+java.lang.NullPointerException
+	at java.base/java.util.Objects.requireNonNull(Objects.java:208)
+	at java.base/java.util.ImmutableCollections$MapN.<init>(ImmutableCollections.java:1019)
+	at java.base/java.util.Map.of(Map.java:1327)
+	at org.eclipse.m2e.editor.lemminx.InitializationOptionsProvider.toLemMinXOptions(InitializationOptionsProvider.java:26)
+	at org.eclipse.m2e.editor.lemminx.InitializationOptionsProvider.get(InitializationOptionsProvider.java:22)
+	at org.eclipse.m2e.editor.lemminx.InitializationOptionsProvider.get(InitializationOptionsProvider.java:1)
+	at org.eclipse.wildwebdeveloper.xml.internal.XMLExtensionRegistry.getInitiatizationOptions(XMLExtensionRegistry.java:135)
+	at org.eclipse.wildwebdeveloper.xml.internal.XMLLanguageServer.getInitializationOptions(XMLLanguageServer.java:158)
+	at org.eclipse.lsp4e.LanguageServerWrapper.lambda$5(LanguageServerWrapper.java:352)
+	at java.base/java.util.concurrent.CompletableFuture$UniCompose.tryFire(CompletableFuture.java:1146)
+	at java.base/java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:506)
+	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1769)
+	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.exec(CompletableFuture.java:1756)
+	at java.base/java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:290)
+	at java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1016)
+	at java.base/java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1665)
+	at java.base/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1598)
+	at java.base/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:183)
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-05-02 13:31:59.571
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-05-02 13:31:59.573
+!MESSAGE classpath=114 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-05-02 13:31:59.574
+!MESSAGE buffering callback sts4.classpath.zhoPfHDC estoque false 114
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-05-02 13:31:59.578
+!MESSAGE executing callback sts4.classpath.zhoPfHDC 1 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-05-02 13:31:59.592
+!MESSAGE executing callback sts4.classpath.zhoPfHDC SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-05-02 13:32:02.383
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-05-02 13:32:02.385
+!MESSAGE classpath=114 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-05-02 13:32:02.385
+!MESSAGE buffering callback sts4.classpath.zhoPfHDC estoque false 114
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-05-02 13:32:02.385
+!MESSAGE executing callback sts4.classpath.zhoPfHDC 1 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-05-02 13:32:02.400
+!MESSAGE executing callback sts4.classpath.zhoPfHDC SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-05-02 13:32:17.353
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-05-02 13:32:17.354
+!MESSAGE classpath=114 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-05-02 13:32:17.355
+!MESSAGE buffering callback sts4.classpath.zhoPfHDC estoque false 114
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-05-02 13:32:17.355
+!MESSAGE executing callback sts4.classpath.zhoPfHDC 1 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-05-02 13:32:17.366
+!MESSAGE executing callback sts4.classpath.zhoPfHDC SUCCESS [done]
+
+!ENTRY org.eclipse.lsp4e 2 0 2021-05-02 13:34:32.299
+!MESSAGE Javadoc unavailable. Failed to obtain it.
+!STACK 0
+java.lang.InterruptedException
+	at java.base/java.util.concurrent.CompletableFuture.reportGet(CompletableFuture.java:385)
+	at java.base/java.util.concurrent.CompletableFuture.get(CompletableFuture.java:2086)
+	at org.eclipse.lsp4e.jdt.LSJavaHoverProvider.getHoverInfo2(LSJavaHoverProvider.java:70)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:163)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:130)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavaEditorTextHoverProxy.getHoverInfo2(JavaEditorTextHoverProxy.java:89)
+	at org.eclipse.jface.text.TextViewerHoverManager$1.run(TextViewerHoverManager.java:155)
+
+!ENTRY org.eclipse.jface 2 0 2021-05-02 13:37:04.807
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2021-05-02 13:37:04.807
+!MESSAGE A conflict occurred for CTRL+R:
+Binding(CTRL+R,
+	ParameterizedCommand(Command(org.eclipse.debug.ui.commands.RunToLine,Run to Line,
+		Resume and break when execution reaches the current line,
+		Category(org.eclipse.debug.ui.category.run,Run/Debug,Run/Debug command category,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@7774692e,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.debug.ui.debugging,,,system)
+Binding(CTRL+R,
+	ParameterizedCommand(Command(org.springframework.ide.eclipse.boot.restart.commands.restart,Trigger Restart,
+		Restart Spring Boot Application,
+		Category(org.eclipse.debug.ui.category.run,Run/Debug,Run/Debug command category,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@7ec12880,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.debug.ui.console,,,system)
+
+!ENTRY org.eclipse.jdt.ui 4 0 2021-05-02 13:41:18.161
+!MESSAGE Error retrieving proposal text.
+Display string:
+UF() - com.hugs.entities.UF
+Pattern:
+@Builder
+public class Mesorregiao{
+	private Long id;
+	private String nome;
+	@Builder.Default
+	private UF uf = new 
+!STACK 0
+java.lang.StringIndexOutOfBoundsException: begin 0, end 114, length 27
+	at java.base/java.lang.String.checkBoundsBeginEnd(String.java:3734)
+	at java.base/java.lang.String.substring(String.java:1903)
+	at org.eclipse.jdt.internal.ui.text.java.AbstractJavaCompletionProposal.getPatternMatchRule(AbstractJavaCompletionProposal.java:929)
+	at org.eclipse.jdt.internal.ui.text.java.LazyJavaCompletionProposal.getStyledDisplayString(LazyJavaCompletionProposal.java:483)
+	at org.eclipse.jface.text.contentassist.CompletionProposalPopup.handleSetData(CompletionProposalPopup.java:878)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:5831)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1427)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1453)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1436)
+	at org.eclipse.swt.widgets.Table.checkData(Table.java:287)
+	at org.eclipse.swt.widgets.Table.cellDataProc(Table.java:225)
+	at org.eclipse.swt.widgets.Display.cellDataProc(Display.java:947)
+	at org.eclipse.swt.internal.gtk.GTK.gtk_tree_view_column_cell_set_cell_data(Native Method)
+	at org.eclipse.swt.widgets.Table.getItemHeightInPixels(Table.java:1741)
+	at org.eclipse.swt.widgets.Table.getItemHeight(Table.java:1712)
+	at org.eclipse.jface.text.contentassist.CompletionProposalPopup.getMinimalHeight(CompletionProposalPopup.java:720)
+	at org.eclipse.jface.text.contentassist.ContentAssistant$LayoutManager.computeBoundsBelowAbove(ContentAssistant.java:676)
+	at org.eclipse.jface.text.contentassist.CompletionProposalPopup.getLocation(CompletionProposalPopup.java:1207)
+	at org.eclipse.jface.text.contentassist.CompletionProposalPopup.setProposals(CompletionProposalPopup.java:1192)
+	at org.eclipse.jface.text.contentassist.AsyncCompletionProposalPopup.computeAndPopulateProposals(AsyncCompletionProposalPopup.java:216)
+	at org.eclipse.jface.text.contentassist.AsyncCompletionProposalPopup.showProposals(AsyncCompletionProposalPopup.java:168)
+	at org.eclipse.jface.text.contentassist.ContentAssistant.showPossibleCompletions(ContentAssistant.java:1830)
+	at org.eclipse.jdt.internal.ui.javaeditor.CompilationUnitEditor$AdaptedSourceViewer.doOperation(CompilationUnitEditor.java:188)
+	at org.eclipse.ui.texteditor.ContentAssistAction.lambda$0(ContentAssistAction.java:85)
+	at org.eclipse.swt.custom.BusyIndicator.showWhile(BusyIndicator.java:74)
+	at org.eclipse.ui.texteditor.ContentAssistAction.run(ContentAssistAction.java:84)
+	at org.eclipse.ui.texteditor.RetargetTextEditorAction.run(RetargetTextEditorAction.java:232)
+	at org.eclipse.jface.action.Action.runWithEvent(Action.java:474)
+	at org.eclipse.jface.commands.ActionHandler.execute(ActionHandler.java:121)
+	at org.eclipse.ui.internal.handlers.E4HandlerProxy.execute(E4HandlerProxy.java:97)
+	at jdk.internal.reflect.GeneratedMethodAccessor52.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+	at org.eclipse.e4.core.internal.di.MethodRequestor.execute(MethodRequestor.java:58)
+	at org.eclipse.e4.core.internal.di.InjectorImpl.invokeUsingClass(InjectorImpl.java:319)
+	at org.eclipse.e4.core.internal.di.InjectorImpl.invoke(InjectorImpl.java:253)
+	at org.eclipse.e4.core.contexts.ContextInjectionFactory.invoke(ContextInjectionFactory.java:173)
+	at org.eclipse.e4.core.commands.internal.HandlerServiceHandler.execute(HandlerServiceHandler.java:156)
+	at org.eclipse.core.commands.Command.executeWithChecks(Command.java:488)
+	at org.eclipse.core.commands.ParameterizedCommand.executeWithChecks(ParameterizedCommand.java:487)
+	at org.eclipse.e4.core.commands.internal.HandlerServiceImpl.executeHandler(HandlerServiceImpl.java:213)
+	at org.eclipse.e4.ui.bindings.keys.KeyBindingDispatcher.executeCommand(KeyBindingDispatcher.java:308)
+	at org.eclipse.e4.ui.bindings.keys.KeyBindingDispatcher.press(KeyBindingDispatcher.java:584)
+	at org.eclipse.e4.ui.bindings.keys.KeyBindingDispatcher.processKeyEvent(KeyBindingDispatcher.java:653)
+	at org.eclipse.e4.ui.bindings.keys.KeyBindingDispatcher.filterKeySequenceBindings(KeyBindingDispatcher.java:443)
+	at org.eclipse.e4.ui.bindings.keys.KeyBindingDispatcher$KeyDownFilter.handleEvent(KeyBindingDispatcher.java:96)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
+	at org.eclipse.swt.widgets.Display.filterEvent(Display.java:1910)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1426)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1453)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1436)
+	at org.eclipse.swt.widgets.Widget.sendKeyEvent(Widget.java:1475)
+	at org.eclipse.swt.widgets.Widget.gtk_key_press_event(Widget.java:838)
+	at org.eclipse.swt.widgets.Control.gtk_key_press_event(Control.java:3983)
+	at org.eclipse.swt.widgets.Composite.gtk_key_press_event(Composite.java:889)
+	at org.eclipse.swt.widgets.Widget.windowProc(Widget.java:2342)
+	at org.eclipse.swt.widgets.Control.windowProc(Control.java:6830)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:6077)
+	at org.eclipse.swt.internal.gtk.GTK.gtk_main_do_event(Native Method)
+	at org.eclipse.swt.widgets.Display.eventProc(Display.java:1537)
+	at org.eclipse.swt.internal.gtk.OS.g_main_context_iteration(Native Method)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:4568)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1157)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1046)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:155)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:644)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:551)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:156)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:152)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:203)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:134)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:401)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:653)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:590)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1461)
+	at org.eclipse.equinox.launcher.Main.main(Main.java:1434)
+
+!ENTRY org.eclipse.jdt.ui 4 0 2021-05-02 13:41:18.164
+!MESSAGE Error retrieving proposal text.
+Display string:
+Mesorregiao(Long id, String nome, UF uf) - com.hugs.dto.Mesorregiao
+Pattern:
+@Builder
+public class Mesorregiao{
+	private Long id;
+	private String nome;
+	@Builder.Default
+	private UF uf = new 
+!STACK 0
+java.lang.StringIndexOutOfBoundsException: begin 0, end 114, length 67
+	at java.base/java.lang.String.checkBoundsBeginEnd(String.java:3734)
+	at java.base/java.lang.String.substring(String.java:1903)
+	at org.eclipse.jdt.internal.ui.text.java.AbstractJavaCompletionProposal.getPatternMatchRule(AbstractJavaCompletionProposal.java:929)
+	at org.eclipse.jdt.internal.ui.text.java.LazyJavaCompletionProposal.getStyledDisplayString(LazyJavaCompletionProposal.java:483)
+	at org.eclipse.jface.text.contentassist.CompletionProposalPopup.handleSetData(CompletionProposalPopup.java:878)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:5831)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1427)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1453)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1436)
+	at org.eclipse.swt.widgets.Table.checkData(Table.java:287)
+	at org.eclipse.swt.widgets.Table.cellDataProc(Table.java:225)
+	at org.eclipse.swt.widgets.Display.cellDataProc(Display.java:947)
+	at org.eclipse.swt.internal.gtk.GTK.gtk_widget_show(Native Method)
+	at org.eclipse.swt.widgets.Shell.setVisible(Shell.java:2910)
+	at org.eclipse.jface.text.contentassist.CompletionProposalPopup.displayProposals(CompletionProposalPopup.java:1262)
+	at org.eclipse.jface.text.contentassist.AsyncCompletionProposalPopup.computeAndPopulateProposals(AsyncCompletionProposalPopup.java:217)
+	at org.eclipse.jface.text.contentassist.AsyncCompletionProposalPopup.showProposals(AsyncCompletionProposalPopup.java:168)
+	at org.eclipse.jface.text.contentassist.ContentAssistant.showPossibleCompletions(ContentAssistant.java:1830)
+	at org.eclipse.jdt.internal.ui.javaeditor.CompilationUnitEditor$AdaptedSourceViewer.doOperation(CompilationUnitEditor.java:188)
+	at org.eclipse.ui.texteditor.ContentAssistAction.lambda$0(ContentAssistAction.java:85)
+	at org.eclipse.swt.custom.BusyIndicator.showWhile(BusyIndicator.java:74)
+	at org.eclipse.ui.texteditor.ContentAssistAction.run(ContentAssistAction.java:84)
+	at org.eclipse.ui.texteditor.RetargetTextEditorAction.run(RetargetTextEditorAction.java:232)
+	at org.eclipse.jface.action.Action.runWithEvent(Action.java:474)
+	at org.eclipse.jface.commands.ActionHandler.execute(ActionHandler.java:121)
+	at org.eclipse.ui.internal.handlers.E4HandlerProxy.execute(E4HandlerProxy.java:97)
+	at jdk.internal.reflect.GeneratedMethodAccessor52.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+	at org.eclipse.e4.core.internal.di.MethodRequestor.execute(MethodRequestor.java:58)
+	at org.eclipse.e4.core.internal.di.InjectorImpl.invokeUsingClass(InjectorImpl.java:319)
+	at org.eclipse.e4.core.internal.di.InjectorImpl.invoke(InjectorImpl.java:253)
+	at org.eclipse.e4.core.contexts.ContextInjectionFactory.invoke(ContextInjectionFactory.java:173)
+	at org.eclipse.e4.core.commands.internal.HandlerServiceHandler.execute(HandlerServiceHandler.java:156)
+	at org.eclipse.core.commands.Command.executeWithChecks(Command.java:488)
+	at org.eclipse.core.commands.ParameterizedCommand.executeWithChecks(ParameterizedCommand.java:487)
+	at org.eclipse.e4.core.commands.internal.HandlerServiceImpl.executeHandler(HandlerServiceImpl.java:213)
+	at org.eclipse.e4.ui.bindings.keys.KeyBindingDispatcher.executeCommand(KeyBindingDispatcher.java:308)
+	at org.eclipse.e4.ui.bindings.keys.KeyBindingDispatcher.press(KeyBindingDispatcher.java:584)
+	at org.eclipse.e4.ui.bindings.keys.KeyBindingDispatcher.processKeyEvent(KeyBindingDispatcher.java:653)
+	at org.eclipse.e4.ui.bindings.keys.KeyBindingDispatcher.filterKeySequenceBindings(KeyBindingDispatcher.java:443)
+	at org.eclipse.e4.ui.bindings.keys.KeyBindingDispatcher$KeyDownFilter.handleEvent(KeyBindingDispatcher.java:96)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
+	at org.eclipse.swt.widgets.Display.filterEvent(Display.java:1910)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1426)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1453)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1436)
+	at org.eclipse.swt.widgets.Widget.sendKeyEvent(Widget.java:1475)
+	at org.eclipse.swt.widgets.Widget.gtk_key_press_event(Widget.java:838)
+	at org.eclipse.swt.widgets.Control.gtk_key_press_event(Control.java:3983)
+	at org.eclipse.swt.widgets.Composite.gtk_key_press_event(Composite.java:889)
+	at org.eclipse.swt.widgets.Widget.windowProc(Widget.java:2342)
+	at org.eclipse.swt.widgets.Control.windowProc(Control.java:6830)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:6077)
+	at org.eclipse.swt.internal.gtk.GTK.gtk_main_do_event(Native Method)
+	at org.eclipse.swt.widgets.Display.eventProc(Display.java:1537)
+	at org.eclipse.swt.internal.gtk.OS.g_main_context_iteration(Native Method)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:4568)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1157)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1046)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:155)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:644)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:551)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:156)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:152)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:203)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:134)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:401)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:653)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:590)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1461)
+	at org.eclipse.equinox.launcher.Main.main(Main.java:1434)
+
+!ENTRY org.eclipse.jdt.ui 4 0 2021-05-02 13:41:18.170
+!MESSAGE Error retrieving proposal text.
+Display string:
+UF(Long id, String sigla, String nome) - com.hugs.entities.UF
+Pattern:
+@Builder
+public class Mesorregiao{
+	private Long id;
+	private String nome;
+	@Builder.Default
+	private UF uf = new 
+!STACK 0
+java.lang.StringIndexOutOfBoundsException: begin 0, end 114, length 61
+	at java.base/java.lang.String.checkBoundsBeginEnd(String.java:3734)
+	at java.base/java.lang.String.substring(String.java:1903)
+	at org.eclipse.jdt.internal.ui.text.java.AbstractJavaCompletionProposal.getPatternMatchRule(AbstractJavaCompletionProposal.java:929)
+	at org.eclipse.jdt.internal.ui.text.java.LazyJavaCompletionProposal.getStyledDisplayString(LazyJavaCompletionProposal.java:483)
+	at org.eclipse.jface.text.contentassist.CompletionProposalPopup.handleSetData(CompletionProposalPopup.java:878)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:5831)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1427)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1453)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1436)
+	at org.eclipse.swt.widgets.Table.checkData(Table.java:287)
+	at org.eclipse.swt.widgets.Table.cellDataProc(Table.java:225)
+	at org.eclipse.swt.widgets.Display.cellDataProc(Display.java:947)
+	at org.eclipse.swt.internal.gtk.OS.g_main_context_iteration(Native Method)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:4568)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1157)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1046)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:155)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:644)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:551)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:156)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:152)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:203)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:134)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:401)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:653)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:590)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1461)
+	at org.eclipse.equinox.launcher.Main.main(Main.java:1434)
+
+!ENTRY org.eclipse.jdt.ui 4 0 2021-05-02 13:41:18.172
+!MESSAGE Error retrieving proposal text.
+Display string:
+Mesorregiao() - com.hugs.dto.Mesorregiao
+Pattern:
+@Builder
+public class Mesorregiao{
+	private Long id;
+	private String nome;
+	@Builder.Default
+	private UF uf = new 
+!STACK 0
+java.lang.StringIndexOutOfBoundsException: begin 0, end 114, length 40
+	at java.base/java.lang.String.checkBoundsBeginEnd(String.java:3734)
+	at java.base/java.lang.String.substring(String.java:1903)
+	at org.eclipse.jdt.internal.ui.text.java.AbstractJavaCompletionProposal.getPatternMatchRule(AbstractJavaCompletionProposal.java:929)
+	at org.eclipse.jdt.internal.ui.text.java.LazyJavaCompletionProposal.getStyledDisplayString(LazyJavaCompletionProposal.java:483)
+	at org.eclipse.jface.text.contentassist.CompletionProposalPopup.handleSetData(CompletionProposalPopup.java:878)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:5831)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1427)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1453)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1436)
+	at org.eclipse.swt.widgets.Table.checkData(Table.java:287)
+	at org.eclipse.swt.widgets.Table.cellDataProc(Table.java:225)
+	at org.eclipse.swt.widgets.Display.cellDataProc(Display.java:947)
+	at org.eclipse.swt.internal.gtk.OS.g_main_context_iteration(Native Method)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:4568)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1157)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1046)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:155)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:644)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:551)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:156)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:152)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:203)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:134)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:401)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:653)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:590)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1461)
+	at org.eclipse.equinox.launcher.Main.main(Main.java:1434)
+
+!ENTRY org.eclipse.jdt.ui 4 0 2021-05-02 13:41:18.176
+!MESSAGE Error retrieving proposal text.
+Display string:
+MesorregiaoBuilder() - com.hugs.dto.Mesorregiao.MesorregiaoBuilder
+Pattern:
+@Builder
+public class Mesorregiao{
+	private Long id;
+	private String nome;
+	@Builder.Default
+	private UF uf = new 
+!STACK 0
+java.lang.StringIndexOutOfBoundsException: begin 0, end 114, length 66
+	at java.base/java.lang.String.checkBoundsBeginEnd(String.java:3734)
+	at java.base/java.lang.String.substring(String.java:1903)
+	at org.eclipse.jdt.internal.ui.text.java.AbstractJavaCompletionProposal.getPatternMatchRule(AbstractJavaCompletionProposal.java:929)
+	at org.eclipse.jdt.internal.ui.text.java.LazyJavaCompletionProposal.getStyledDisplayString(LazyJavaCompletionProposal.java:483)
+	at org.eclipse.jface.text.contentassist.CompletionProposalPopup.handleSetData(CompletionProposalPopup.java:878)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:5831)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1427)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1453)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1436)
+	at org.eclipse.swt.widgets.Table.checkData(Table.java:287)
+	at org.eclipse.swt.widgets.Table.cellDataProc(Table.java:225)
+	at org.eclipse.swt.widgets.Display.cellDataProc(Display.java:947)
+	at org.eclipse.swt.internal.gtk.OS.g_main_context_iteration(Native Method)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:4568)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1157)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1046)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:155)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:644)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:551)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:156)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:152)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:203)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:134)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:401)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:653)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:590)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1461)
+	at org.eclipse.equinox.launcher.Main.main(Main.java:1434)
+
+!ENTRY org.eclipse.jdt.ui 4 0 2021-05-02 13:41:18.180
+!MESSAGE Error retrieving proposal text.
+Display string:
+Mesorregiao - com.hugs.dto
+Pattern:
+@Builder
+public class Mesorregiao{
+	private Long id;
+	private String nome;
+	@Builder.Default
+	private UF uf = new 
+!STACK 0
+java.lang.StringIndexOutOfBoundsException: begin 0, end 114, length 26
+	at java.base/java.lang.String.checkBoundsBeginEnd(String.java:3734)
+	at java.base/java.lang.String.substring(String.java:1903)
+	at org.eclipse.jdt.internal.ui.text.java.AbstractJavaCompletionProposal.getPatternMatchRule(AbstractJavaCompletionProposal.java:929)
+	at org.eclipse.jdt.internal.ui.text.java.LazyJavaTypeCompletionProposal.getPatternToEmphasizeMatch(LazyJavaTypeCompletionProposal.java:321)
+	at org.eclipse.jdt.internal.ui.text.java.LazyJavaCompletionProposal.getStyledDisplayString(LazyJavaCompletionProposal.java:475)
+	at org.eclipse.jface.text.contentassist.CompletionProposalPopup.handleSetData(CompletionProposalPopup.java:878)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:5831)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1427)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1453)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1436)
+	at org.eclipse.swt.widgets.Table.checkData(Table.java:287)
+	at org.eclipse.swt.widgets.Table.cellDataProc(Table.java:225)
+	at org.eclipse.swt.widgets.Display.cellDataProc(Display.java:947)
+	at org.eclipse.swt.internal.gtk.OS.g_main_context_iteration(Native Method)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:4568)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1157)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1046)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:155)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:644)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:551)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:156)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:152)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:203)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:134)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:401)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:653)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:590)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1461)
+	at org.eclipse.equinox.launcher.Main.main(Main.java:1434)
+
+!ENTRY org.eclipse.jdt.ui 4 0 2021-05-02 13:41:18.180
+!MESSAGE Error retrieving proposal text.
+Display string:
+Mesorregiao - com.hugs.dto
+Pattern:
+Default
+	private UF uf = new 
+!STACK 0
+java.lang.StringIndexOutOfBoundsException: begin 0, end 29, length 26
+	at java.base/java.lang.String.checkBoundsBeginEnd(String.java:3734)
+	at java.base/java.lang.String.substring(String.java:1903)
+	at org.eclipse.jdt.internal.ui.text.java.AbstractJavaCompletionProposal.getPatternMatchRule(AbstractJavaCompletionProposal.java:929)
+	at org.eclipse.jdt.internal.ui.text.java.LazyJavaCompletionProposal.getStyledDisplayString(LazyJavaCompletionProposal.java:483)
+	at org.eclipse.jface.text.contentassist.CompletionProposalPopup.handleSetData(CompletionProposalPopup.java:878)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:5831)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1427)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1453)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1436)
+	at org.eclipse.swt.widgets.Table.checkData(Table.java:287)
+	at org.eclipse.swt.widgets.Table.cellDataProc(Table.java:225)
+	at org.eclipse.swt.widgets.Display.cellDataProc(Display.java:947)
+	at org.eclipse.swt.internal.gtk.OS.g_main_context_iteration(Native Method)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:4568)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1157)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1046)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:155)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:644)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:551)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:156)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:152)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:203)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:134)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:401)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:653)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:590)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1461)
+	at org.eclipse.equinox.launcher.Main.main(Main.java:1434)
+
+!ENTRY org.eclipse.jdt.ui 4 0 2021-05-02 13:41:20.829
+!MESSAGE Error retrieving proposal text.
+Display string:
+UF() - com.hugs.entities.UF
+Pattern:
+@Builder
+public class Mesorregiao{
+	private Long id;
+	private String nome;
+	@Builder.Default
+	private UF uf = new  
+!STACK 0
+java.lang.StringIndexOutOfBoundsException: begin 0, end 115, length 27
+	at java.base/java.lang.String.checkBoundsBeginEnd(String.java:3734)
+	at java.base/java.lang.String.substring(String.java:1903)
+	at org.eclipse.jdt.internal.ui.text.java.AbstractJavaCompletionProposal.getPatternMatchRule(AbstractJavaCompletionProposal.java:929)
+	at org.eclipse.jdt.internal.ui.text.java.LazyJavaCompletionProposal.getStyledDisplayString(LazyJavaCompletionProposal.java:483)
+	at org.eclipse.jface.text.contentassist.CompletionProposalPopup.handleSetData(CompletionProposalPopup.java:878)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:5831)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1427)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1453)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1436)
+	at org.eclipse.swt.widgets.Table.checkData(Table.java:287)
+	at org.eclipse.swt.widgets.Table.cellDataProc(Table.java:225)
+	at org.eclipse.swt.widgets.Display.cellDataProc(Display.java:947)
+	at org.eclipse.swt.internal.gtk.GTK.gtk_tree_view_column_cell_set_cell_data(Native Method)
+	at org.eclipse.swt.widgets.Table.getItemHeightInPixels(Table.java:1741)
+	at org.eclipse.swt.widgets.Table.getItemHeight(Table.java:1712)
+	at org.eclipse.jface.text.contentassist.CompletionProposalPopup.getMinimalHeight(CompletionProposalPopup.java:720)
+	at org.eclipse.jface.text.contentassist.ContentAssistant$LayoutManager.computeBoundsBelowAbove(ContentAssistant.java:676)
+	at org.eclipse.jface.text.contentassist.CompletionProposalPopup.getLocation(CompletionProposalPopup.java:1207)
+	at org.eclipse.jface.text.contentassist.CompletionProposalPopup.setProposals(CompletionProposalPopup.java:1192)
+	at org.eclipse.jface.text.contentassist.AsyncCompletionProposalPopup.computeAndPopulateProposals(AsyncCompletionProposalPopup.java:216)
+	at org.eclipse.jface.text.contentassist.AsyncCompletionProposalPopup.showProposals(AsyncCompletionProposalPopup.java:168)
+	at org.eclipse.jface.text.contentassist.ContentAssistant.showPossibleCompletions(ContentAssistant.java:1830)
+	at org.eclipse.jdt.internal.ui.javaeditor.CompilationUnitEditor$AdaptedSourceViewer.doOperation(CompilationUnitEditor.java:188)
+	at org.eclipse.ui.texteditor.ContentAssistAction.lambda$0(ContentAssistAction.java:85)
+	at org.eclipse.swt.custom.BusyIndicator.showWhile(BusyIndicator.java:74)
+	at org.eclipse.ui.texteditor.ContentAssistAction.run(ContentAssistAction.java:84)
+	at org.eclipse.ui.texteditor.RetargetTextEditorAction.run(RetargetTextEditorAction.java:232)
+	at org.eclipse.jface.action.Action.runWithEvent(Action.java:474)
+	at org.eclipse.jface.commands.ActionHandler.execute(ActionHandler.java:121)
+	at org.eclipse.ui.internal.handlers.E4HandlerProxy.execute(E4HandlerProxy.java:97)
+	at jdk.internal.reflect.GeneratedMethodAccessor52.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+	at org.eclipse.e4.core.internal.di.MethodRequestor.execute(MethodRequestor.java:58)
+	at org.eclipse.e4.core.internal.di.InjectorImpl.invokeUsingClass(InjectorImpl.java:319)
+	at org.eclipse.e4.core.internal.di.InjectorImpl.invoke(InjectorImpl.java:253)
+	at org.eclipse.e4.core.contexts.ContextInjectionFactory.invoke(ContextInjectionFactory.java:173)
+	at org.eclipse.e4.core.commands.internal.HandlerServiceHandler.execute(HandlerServiceHandler.java:156)
+	at org.eclipse.core.commands.Command.executeWithChecks(Command.java:488)
+	at org.eclipse.core.commands.ParameterizedCommand.executeWithChecks(ParameterizedCommand.java:487)
+	at org.eclipse.e4.core.commands.internal.HandlerServiceImpl.executeHandler(HandlerServiceImpl.java:213)
+	at org.eclipse.e4.ui.bindings.keys.KeyBindingDispatcher.executeCommand(KeyBindingDispatcher.java:308)
+	at org.eclipse.e4.ui.bindings.keys.KeyBindingDispatcher.press(KeyBindingDispatcher.java:584)
+	at org.eclipse.e4.ui.bindings.keys.KeyBindingDispatcher.processKeyEvent(KeyBindingDispatcher.java:653)
+	at org.eclipse.e4.ui.bindings.keys.KeyBindingDispatcher.filterKeySequenceBindings(KeyBindingDispatcher.java:443)
+	at org.eclipse.e4.ui.bindings.keys.KeyBindingDispatcher$KeyDownFilter.handleEvent(KeyBindingDispatcher.java:96)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
+	at org.eclipse.swt.widgets.Display.filterEvent(Display.java:1910)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1426)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1453)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1436)
+	at org.eclipse.swt.widgets.Widget.sendKeyEvent(Widget.java:1475)
+	at org.eclipse.swt.widgets.Widget.gtk_key_press_event(Widget.java:838)
+	at org.eclipse.swt.widgets.Control.gtk_key_press_event(Control.java:3983)
+	at org.eclipse.swt.widgets.Composite.gtk_key_press_event(Composite.java:889)
+	at org.eclipse.swt.widgets.Widget.windowProc(Widget.java:2342)
+	at org.eclipse.swt.widgets.Control.windowProc(Control.java:6830)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:6077)
+	at org.eclipse.swt.internal.gtk.GTK.gtk_main_do_event(Native Method)
+	at org.eclipse.swt.widgets.Display.eventProc(Display.java:1537)
+	at org.eclipse.swt.internal.gtk.OS.g_main_context_iteration(Native Method)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:4568)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1157)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1046)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:155)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:644)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:551)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:156)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:152)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:203)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:134)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:401)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:653)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:590)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1461)
+	at org.eclipse.equinox.launcher.Main.main(Main.java:1434)
+
+!ENTRY org.eclipse.jdt.ui 4 0 2021-05-02 13:41:20.832
+!MESSAGE Error retrieving proposal text.
+Display string:
+Mesorregiao(Long id, String nome, UF uf) - com.hugs.dto.Mesorregiao
+Pattern:
+@Builder
+public class Mesorregiao{
+	private Long id;
+	private String nome;
+	@Builder.Default
+	private UF uf = new  
+!STACK 0
+java.lang.StringIndexOutOfBoundsException: begin 0, end 115, length 67
+	at java.base/java.lang.String.checkBoundsBeginEnd(String.java:3734)
+	at java.base/java.lang.String.substring(String.java:1903)
+	at org.eclipse.jdt.internal.ui.text.java.AbstractJavaCompletionProposal.getPatternMatchRule(AbstractJavaCompletionProposal.java:929)
+	at org.eclipse.jdt.internal.ui.text.java.LazyJavaCompletionProposal.getStyledDisplayString(LazyJavaCompletionProposal.java:483)
+	at org.eclipse.jface.text.contentassist.CompletionProposalPopup.handleSetData(CompletionProposalPopup.java:878)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:5831)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1427)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1453)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1436)
+	at org.eclipse.swt.widgets.Table.checkData(Table.java:287)
+	at org.eclipse.swt.widgets.Table.cellDataProc(Table.java:225)
+	at org.eclipse.swt.widgets.Display.cellDataProc(Display.java:947)
+	at org.eclipse.swt.internal.gtk.GTK.gtk_widget_show(Native Method)
+	at org.eclipse.swt.widgets.Shell.setVisible(Shell.java:2910)
+	at org.eclipse.jface.text.contentassist.CompletionProposalPopup.displayProposals(CompletionProposalPopup.java:1262)
+	at org.eclipse.jface.text.contentassist.AsyncCompletionProposalPopup.computeAndPopulateProposals(AsyncCompletionProposalPopup.java:217)
+	at org.eclipse.jface.text.contentassist.AsyncCompletionProposalPopup.showProposals(AsyncCompletionProposalPopup.java:168)
+	at org.eclipse.jface.text.contentassist.ContentAssistant.showPossibleCompletions(ContentAssistant.java:1830)
+	at org.eclipse.jdt.internal.ui.javaeditor.CompilationUnitEditor$AdaptedSourceViewer.doOperation(CompilationUnitEditor.java:188)
+	at org.eclipse.ui.texteditor.ContentAssistAction.lambda$0(ContentAssistAction.java:85)
+	at org.eclipse.swt.custom.BusyIndicator.showWhile(BusyIndicator.java:74)
+	at org.eclipse.ui.texteditor.ContentAssistAction.run(ContentAssistAction.java:84)
+	at org.eclipse.ui.texteditor.RetargetTextEditorAction.run(RetargetTextEditorAction.java:232)
+	at org.eclipse.jface.action.Action.runWithEvent(Action.java:474)
+	at org.eclipse.jface.commands.ActionHandler.execute(ActionHandler.java:121)
+	at org.eclipse.ui.internal.handlers.E4HandlerProxy.execute(E4HandlerProxy.java:97)
+	at jdk.internal.reflect.GeneratedMethodAccessor52.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+	at org.eclipse.e4.core.internal.di.MethodRequestor.execute(MethodRequestor.java:58)
+	at org.eclipse.e4.core.internal.di.InjectorImpl.invokeUsingClass(InjectorImpl.java:319)
+	at org.eclipse.e4.core.internal.di.InjectorImpl.invoke(InjectorImpl.java:253)
+	at org.eclipse.e4.core.contexts.ContextInjectionFactory.invoke(ContextInjectionFactory.java:173)
+	at org.eclipse.e4.core.commands.internal.HandlerServiceHandler.execute(HandlerServiceHandler.java:156)
+	at org.eclipse.core.commands.Command.executeWithChecks(Command.java:488)
+	at org.eclipse.core.commands.ParameterizedCommand.executeWithChecks(ParameterizedCommand.java:487)
+	at org.eclipse.e4.core.commands.internal.HandlerServiceImpl.executeHandler(HandlerServiceImpl.java:213)
+	at org.eclipse.e4.ui.bindings.keys.KeyBindingDispatcher.executeCommand(KeyBindingDispatcher.java:308)
+	at org.eclipse.e4.ui.bindings.keys.KeyBindingDispatcher.press(KeyBindingDispatcher.java:584)
+	at org.eclipse.e4.ui.bindings.keys.KeyBindingDispatcher.processKeyEvent(KeyBindingDispatcher.java:653)
+	at org.eclipse.e4.ui.bindings.keys.KeyBindingDispatcher.filterKeySequenceBindings(KeyBindingDispatcher.java:443)
+	at org.eclipse.e4.ui.bindings.keys.KeyBindingDispatcher$KeyDownFilter.handleEvent(KeyBindingDispatcher.java:96)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
+	at org.eclipse.swt.widgets.Display.filterEvent(Display.java:1910)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1426)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1453)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1436)
+	at org.eclipse.swt.widgets.Widget.sendKeyEvent(Widget.java:1475)
+	at org.eclipse.swt.widgets.Widget.gtk_key_press_event(Widget.java:838)
+	at org.eclipse.swt.widgets.Control.gtk_key_press_event(Control.java:3983)
+	at org.eclipse.swt.widgets.Composite.gtk_key_press_event(Composite.java:889)
+	at org.eclipse.swt.widgets.Widget.windowProc(Widget.java:2342)
+	at org.eclipse.swt.widgets.Control.windowProc(Control.java:6830)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:6077)
+	at org.eclipse.swt.internal.gtk.GTK.gtk_main_do_event(Native Method)
+	at org.eclipse.swt.widgets.Display.eventProc(Display.java:1537)
+	at org.eclipse.swt.internal.gtk.OS.g_main_context_iteration(Native Method)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:4568)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1157)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1046)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:155)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:644)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:551)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:156)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:152)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:203)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:134)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:401)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:653)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:590)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1461)
+	at org.eclipse.equinox.launcher.Main.main(Main.java:1434)
+
+!ENTRY org.eclipse.jdt.ui 4 0 2021-05-02 13:41:20.839
+!MESSAGE Error retrieving proposal text.
+Display string:
+UF(Long id, String sigla, String nome) - com.hugs.entities.UF
+Pattern:
+@Builder
+public class Mesorregiao{
+	private Long id;
+	private String nome;
+	@Builder.Default
+	private UF uf = new  
+!STACK 0
+java.lang.StringIndexOutOfBoundsException: begin 0, end 115, length 61
+	at java.base/java.lang.String.checkBoundsBeginEnd(String.java:3734)
+	at java.base/java.lang.String.substring(String.java:1903)
+	at org.eclipse.jdt.internal.ui.text.java.AbstractJavaCompletionProposal.getPatternMatchRule(AbstractJavaCompletionProposal.java:929)
+	at org.eclipse.jdt.internal.ui.text.java.LazyJavaCompletionProposal.getStyledDisplayString(LazyJavaCompletionProposal.java:483)
+	at org.eclipse.jface.text.contentassist.CompletionProposalPopup.handleSetData(CompletionProposalPopup.java:878)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:5831)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1427)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1453)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1436)
+	at org.eclipse.swt.widgets.Table.checkData(Table.java:287)
+	at org.eclipse.swt.widgets.Table.cellDataProc(Table.java:225)
+	at org.eclipse.swt.widgets.Display.cellDataProc(Display.java:947)
+	at org.eclipse.swt.internal.gtk.OS.g_main_context_iteration(Native Method)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:4568)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1157)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1046)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:155)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:644)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:551)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:156)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:152)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:203)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:134)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:401)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:653)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:590)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1461)
+	at org.eclipse.equinox.launcher.Main.main(Main.java:1434)
+
+!ENTRY org.eclipse.jdt.ui 4 0 2021-05-02 13:41:20.841
+!MESSAGE Error retrieving proposal text.
+Display string:
+Mesorregiao() - com.hugs.dto.Mesorregiao
+Pattern:
+@Builder
+public class Mesorregiao{
+	private Long id;
+	private String nome;
+	@Builder.Default
+	private UF uf = new  
+!STACK 0
+java.lang.StringIndexOutOfBoundsException: begin 0, end 115, length 40
+	at java.base/java.lang.String.checkBoundsBeginEnd(String.java:3734)
+	at java.base/java.lang.String.substring(String.java:1903)
+	at org.eclipse.jdt.internal.ui.text.java.AbstractJavaCompletionProposal.getPatternMatchRule(AbstractJavaCompletionProposal.java:929)
+	at org.eclipse.jdt.internal.ui.text.java.LazyJavaCompletionProposal.getStyledDisplayString(LazyJavaCompletionProposal.java:483)
+	at org.eclipse.jface.text.contentassist.CompletionProposalPopup.handleSetData(CompletionProposalPopup.java:878)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:5831)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1427)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1453)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1436)
+	at org.eclipse.swt.widgets.Table.checkData(Table.java:287)
+	at org.eclipse.swt.widgets.Table.cellDataProc(Table.java:225)
+	at org.eclipse.swt.widgets.Display.cellDataProc(Display.java:947)
+	at org.eclipse.swt.internal.gtk.OS.g_main_context_iteration(Native Method)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:4568)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1157)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1046)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:155)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:644)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:551)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:156)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:152)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:203)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:134)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:401)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:653)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:590)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1461)
+	at org.eclipse.equinox.launcher.Main.main(Main.java:1434)
+
+!ENTRY org.eclipse.jdt.ui 4 0 2021-05-02 13:41:20.843
+!MESSAGE Error retrieving proposal text.
+Display string:
+MesorregiaoBuilder() - com.hugs.dto.Mesorregiao.MesorregiaoBuilder
+Pattern:
+@Builder
+public class Mesorregiao{
+	private Long id;
+	private String nome;
+	@Builder.Default
+	private UF uf = new  
+!STACK 0
+java.lang.StringIndexOutOfBoundsException: begin 0, end 115, length 66
+	at java.base/java.lang.String.checkBoundsBeginEnd(String.java:3734)
+	at java.base/java.lang.String.substring(String.java:1903)
+	at org.eclipse.jdt.internal.ui.text.java.AbstractJavaCompletionProposal.getPatternMatchRule(AbstractJavaCompletionProposal.java:929)
+	at org.eclipse.jdt.internal.ui.text.java.LazyJavaCompletionProposal.getStyledDisplayString(LazyJavaCompletionProposal.java:483)
+	at org.eclipse.jface.text.contentassist.CompletionProposalPopup.handleSetData(CompletionProposalPopup.java:878)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:5831)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1427)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1453)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1436)
+	at org.eclipse.swt.widgets.Table.checkData(Table.java:287)
+	at org.eclipse.swt.widgets.Table.cellDataProc(Table.java:225)
+	at org.eclipse.swt.widgets.Display.cellDataProc(Display.java:947)
+	at org.eclipse.swt.internal.gtk.OS.g_main_context_iteration(Native Method)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:4568)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1157)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1046)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:155)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:644)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:551)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:156)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:152)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:203)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:134)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:401)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:653)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:590)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1461)
+	at org.eclipse.equinox.launcher.Main.main(Main.java:1434)
+
+!ENTRY org.eclipse.jdt.ui 4 0 2021-05-02 13:41:20.845
+!MESSAGE Error retrieving proposal text.
+Display string:
+Mesorregiao - com.hugs.dto
+Pattern:
+@Builder
+public class Mesorregiao{
+	private Long id;
+	private String nome;
+	@Builder.Default
+	private UF uf = new  
+!STACK 0
+java.lang.StringIndexOutOfBoundsException: begin 0, end 115, length 26
+	at java.base/java.lang.String.checkBoundsBeginEnd(String.java:3734)
+	at java.base/java.lang.String.substring(String.java:1903)
+	at org.eclipse.jdt.internal.ui.text.java.AbstractJavaCompletionProposal.getPatternMatchRule(AbstractJavaCompletionProposal.java:929)
+	at org.eclipse.jdt.internal.ui.text.java.LazyJavaTypeCompletionProposal.getPatternToEmphasizeMatch(LazyJavaTypeCompletionProposal.java:321)
+	at org.eclipse.jdt.internal.ui.text.java.LazyJavaCompletionProposal.getStyledDisplayString(LazyJavaCompletionProposal.java:475)
+	at org.eclipse.jface.text.contentassist.CompletionProposalPopup.handleSetData(CompletionProposalPopup.java:878)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:5831)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1427)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1453)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1436)
+	at org.eclipse.swt.widgets.Table.checkData(Table.java:287)
+	at org.eclipse.swt.widgets.Table.cellDataProc(Table.java:225)
+	at org.eclipse.swt.widgets.Display.cellDataProc(Display.java:947)
+	at org.eclipse.swt.internal.gtk.OS.g_main_context_iteration(Native Method)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:4568)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1157)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1046)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:155)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:644)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:551)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:156)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:152)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:203)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:134)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:401)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:653)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:590)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1461)
+	at org.eclipse.equinox.launcher.Main.main(Main.java:1434)
+
+!ENTRY org.eclipse.jdt.ui 4 0 2021-05-02 13:41:20.845
+!MESSAGE Error retrieving proposal text.
+Display string:
+Mesorregiao - com.hugs.dto
+Pattern:
+Default
+	private UF uf = new  
+!STACK 0
+java.lang.StringIndexOutOfBoundsException: begin 0, end 30, length 26
+	at java.base/java.lang.String.checkBoundsBeginEnd(String.java:3734)
+	at java.base/java.lang.String.substring(String.java:1903)
+	at org.eclipse.jdt.internal.ui.text.java.AbstractJavaCompletionProposal.getPatternMatchRule(AbstractJavaCompletionProposal.java:929)
+	at org.eclipse.jdt.internal.ui.text.java.LazyJavaCompletionProposal.getStyledDisplayString(LazyJavaCompletionProposal.java:483)
+	at org.eclipse.jface.text.contentassist.CompletionProposalPopup.handleSetData(CompletionProposalPopup.java:878)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:5831)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1427)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1453)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1436)
+	at org.eclipse.swt.widgets.Table.checkData(Table.java:287)
+	at org.eclipse.swt.widgets.Table.cellDataProc(Table.java:225)
+	at org.eclipse.swt.widgets.Display.cellDataProc(Display.java:947)
+	at org.eclipse.swt.internal.gtk.OS.g_main_context_iteration(Native Method)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:4568)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1157)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1046)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:155)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:644)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:551)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:156)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:152)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:203)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:134)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:401)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:653)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:590)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1461)
+	at org.eclipse.equinox.launcher.Main.main(Main.java:1434)
+
+!ENTRY org.eclipse.jdt.ui 4 0 2021-05-02 13:41:23.433
+!MESSAGE Error retrieving proposal text.
+Display string:
+UF() - com.hugs.entities.UF
+Pattern:
+@Builder
+public class Mesorregiao{
+	private Long id;
+	private String nome;
+	@Builder.Default
+	private UF uf = new 
+!STACK 0
+java.lang.StringIndexOutOfBoundsException: begin 0, end 114, length 27
+	at java.base/java.lang.String.checkBoundsBeginEnd(String.java:3734)
+	at java.base/java.lang.String.substring(String.java:1903)
+	at org.eclipse.jdt.internal.ui.text.java.AbstractJavaCompletionProposal.getPatternMatchRule(AbstractJavaCompletionProposal.java:929)
+	at org.eclipse.jdt.internal.ui.text.java.LazyJavaCompletionProposal.getStyledDisplayString(LazyJavaCompletionProposal.java:483)
+	at org.eclipse.jface.text.contentassist.CompletionProposalPopup.handleSetData(CompletionProposalPopup.java:878)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:5831)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1427)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1453)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1436)
+	at org.eclipse.swt.widgets.Table.checkData(Table.java:287)
+	at org.eclipse.swt.widgets.Table.cellDataProc(Table.java:225)
+	at org.eclipse.swt.widgets.Display.cellDataProc(Display.java:947)
+	at org.eclipse.swt.internal.gtk.GTK.gtk_tree_view_column_cell_set_cell_data(Native Method)
+	at org.eclipse.swt.widgets.Table.getItemHeightInPixels(Table.java:1741)
+	at org.eclipse.swt.widgets.Table.getItemHeight(Table.java:1712)
+	at org.eclipse.jface.text.contentassist.CompletionProposalPopup.getMinimalHeight(CompletionProposalPopup.java:720)
+	at org.eclipse.jface.text.contentassist.ContentAssistant$LayoutManager.computeBoundsBelowAbove(ContentAssistant.java:676)
+	at org.eclipse.jface.text.contentassist.CompletionProposalPopup.getLocation(CompletionProposalPopup.java:1207)
+	at org.eclipse.jface.text.contentassist.CompletionProposalPopup.setProposals(CompletionProposalPopup.java:1192)
+	at org.eclipse.jface.text.contentassist.AsyncCompletionProposalPopup.computeAndPopulateProposals(AsyncCompletionProposalPopup.java:216)
+	at org.eclipse.jface.text.contentassist.AsyncCompletionProposalPopup.showProposals(AsyncCompletionProposalPopup.java:168)
+	at org.eclipse.jface.text.contentassist.ContentAssistant.showPossibleCompletions(ContentAssistant.java:1830)
+	at org.eclipse.jdt.internal.ui.javaeditor.CompilationUnitEditor$AdaptedSourceViewer.doOperation(CompilationUnitEditor.java:188)
+	at org.eclipse.ui.texteditor.ContentAssistAction.lambda$0(ContentAssistAction.java:85)
+	at org.eclipse.swt.custom.BusyIndicator.showWhile(BusyIndicator.java:74)
+	at org.eclipse.ui.texteditor.ContentAssistAction.run(ContentAssistAction.java:84)
+	at org.eclipse.ui.texteditor.RetargetTextEditorAction.run(RetargetTextEditorAction.java:232)
+	at org.eclipse.jface.action.Action.runWithEvent(Action.java:474)
+	at org.eclipse.jface.commands.ActionHandler.execute(ActionHandler.java:121)
+	at org.eclipse.ui.internal.handlers.E4HandlerProxy.execute(E4HandlerProxy.java:97)
+	at jdk.internal.reflect.GeneratedMethodAccessor52.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+	at org.eclipse.e4.core.internal.di.MethodRequestor.execute(MethodRequestor.java:58)
+	at org.eclipse.e4.core.internal.di.InjectorImpl.invokeUsingClass(InjectorImpl.java:319)
+	at org.eclipse.e4.core.internal.di.InjectorImpl.invoke(InjectorImpl.java:253)
+	at org.eclipse.e4.core.contexts.ContextInjectionFactory.invoke(ContextInjectionFactory.java:173)
+	at org.eclipse.e4.core.commands.internal.HandlerServiceHandler.execute(HandlerServiceHandler.java:156)
+	at org.eclipse.core.commands.Command.executeWithChecks(Command.java:488)
+	at org.eclipse.core.commands.ParameterizedCommand.executeWithChecks(ParameterizedCommand.java:487)
+	at org.eclipse.e4.core.commands.internal.HandlerServiceImpl.executeHandler(HandlerServiceImpl.java:213)
+	at org.eclipse.e4.ui.bindings.keys.KeyBindingDispatcher.executeCommand(KeyBindingDispatcher.java:308)
+	at org.eclipse.e4.ui.bindings.keys.KeyBindingDispatcher.press(KeyBindingDispatcher.java:584)
+	at org.eclipse.e4.ui.bindings.keys.KeyBindingDispatcher.processKeyEvent(KeyBindingDispatcher.java:653)
+	at org.eclipse.e4.ui.bindings.keys.KeyBindingDispatcher.filterKeySequenceBindings(KeyBindingDispatcher.java:443)
+	at org.eclipse.e4.ui.bindings.keys.KeyBindingDispatcher$KeyDownFilter.handleEvent(KeyBindingDispatcher.java:96)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
+	at org.eclipse.swt.widgets.Display.filterEvent(Display.java:1910)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1426)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1453)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1436)
+	at org.eclipse.swt.widgets.Widget.sendKeyEvent(Widget.java:1475)
+	at org.eclipse.swt.widgets.Widget.gtk_key_press_event(Widget.java:838)
+	at org.eclipse.swt.widgets.Control.gtk_key_press_event(Control.java:3983)
+	at org.eclipse.swt.widgets.Composite.gtk_key_press_event(Composite.java:889)
+	at org.eclipse.swt.widgets.Widget.windowProc(Widget.java:2342)
+	at org.eclipse.swt.widgets.Control.windowProc(Control.java:6830)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:6077)
+	at org.eclipse.swt.internal.gtk.GTK.gtk_main_do_event(Native Method)
+	at org.eclipse.swt.widgets.Display.eventProc(Display.java:1537)
+	at org.eclipse.swt.internal.gtk.OS.g_main_context_iteration(Native Method)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:4568)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1157)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1046)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:155)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:644)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:551)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:156)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:152)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:203)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:134)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:401)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:653)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:590)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1461)
+	at org.eclipse.equinox.launcher.Main.main(Main.java:1434)
+
+!ENTRY org.eclipse.jdt.ui 4 0 2021-05-02 13:41:23.436
+!MESSAGE Error retrieving proposal text.
+Display string:
+Mesorregiao(Long id, String nome, UF uf) - com.hugs.dto.Mesorregiao
+Pattern:
+@Builder
+public class Mesorregiao{
+	private Long id;
+	private String nome;
+	@Builder.Default
+	private UF uf = new 
+!STACK 0
+java.lang.StringIndexOutOfBoundsException: begin 0, end 114, length 67
+	at java.base/java.lang.String.checkBoundsBeginEnd(String.java:3734)
+	at java.base/java.lang.String.substring(String.java:1903)
+	at org.eclipse.jdt.internal.ui.text.java.AbstractJavaCompletionProposal.getPatternMatchRule(AbstractJavaCompletionProposal.java:929)
+	at org.eclipse.jdt.internal.ui.text.java.LazyJavaCompletionProposal.getStyledDisplayString(LazyJavaCompletionProposal.java:483)
+	at org.eclipse.jface.text.contentassist.CompletionProposalPopup.handleSetData(CompletionProposalPopup.java:878)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:5831)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1427)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1453)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1436)
+	at org.eclipse.swt.widgets.Table.checkData(Table.java:287)
+	at org.eclipse.swt.widgets.Table.cellDataProc(Table.java:225)
+	at org.eclipse.swt.widgets.Display.cellDataProc(Display.java:947)
+	at org.eclipse.swt.internal.gtk.GTK.gtk_widget_show(Native Method)
+	at org.eclipse.swt.widgets.Shell.setVisible(Shell.java:2910)
+	at org.eclipse.jface.text.contentassist.CompletionProposalPopup.displayProposals(CompletionProposalPopup.java:1262)
+	at org.eclipse.jface.text.contentassist.AsyncCompletionProposalPopup.computeAndPopulateProposals(AsyncCompletionProposalPopup.java:217)
+	at org.eclipse.jface.text.contentassist.AsyncCompletionProposalPopup.showProposals(AsyncCompletionProposalPopup.java:168)
+	at org.eclipse.jface.text.contentassist.ContentAssistant.showPossibleCompletions(ContentAssistant.java:1830)
+	at org.eclipse.jdt.internal.ui.javaeditor.CompilationUnitEditor$AdaptedSourceViewer.doOperation(CompilationUnitEditor.java:188)
+	at org.eclipse.ui.texteditor.ContentAssistAction.lambda$0(ContentAssistAction.java:85)
+	at org.eclipse.swt.custom.BusyIndicator.showWhile(BusyIndicator.java:74)
+	at org.eclipse.ui.texteditor.ContentAssistAction.run(ContentAssistAction.java:84)
+	at org.eclipse.ui.texteditor.RetargetTextEditorAction.run(RetargetTextEditorAction.java:232)
+	at org.eclipse.jface.action.Action.runWithEvent(Action.java:474)
+	at org.eclipse.jface.commands.ActionHandler.execute(ActionHandler.java:121)
+	at org.eclipse.ui.internal.handlers.E4HandlerProxy.execute(E4HandlerProxy.java:97)
+	at jdk.internal.reflect.GeneratedMethodAccessor52.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+	at org.eclipse.e4.core.internal.di.MethodRequestor.execute(MethodRequestor.java:58)
+	at org.eclipse.e4.core.internal.di.InjectorImpl.invokeUsingClass(InjectorImpl.java:319)
+	at org.eclipse.e4.core.internal.di.InjectorImpl.invoke(InjectorImpl.java:253)
+	at org.eclipse.e4.core.contexts.ContextInjectionFactory.invoke(ContextInjectionFactory.java:173)
+	at org.eclipse.e4.core.commands.internal.HandlerServiceHandler.execute(HandlerServiceHandler.java:156)
+	at org.eclipse.core.commands.Command.executeWithChecks(Command.java:488)
+	at org.eclipse.core.commands.ParameterizedCommand.executeWithChecks(ParameterizedCommand.java:487)
+	at org.eclipse.e4.core.commands.internal.HandlerServiceImpl.executeHandler(HandlerServiceImpl.java:213)
+	at org.eclipse.e4.ui.bindings.keys.KeyBindingDispatcher.executeCommand(KeyBindingDispatcher.java:308)
+	at org.eclipse.e4.ui.bindings.keys.KeyBindingDispatcher.press(KeyBindingDispatcher.java:584)
+	at org.eclipse.e4.ui.bindings.keys.KeyBindingDispatcher.processKeyEvent(KeyBindingDispatcher.java:653)
+	at org.eclipse.e4.ui.bindings.keys.KeyBindingDispatcher.filterKeySequenceBindings(KeyBindingDispatcher.java:443)
+	at org.eclipse.e4.ui.bindings.keys.KeyBindingDispatcher$KeyDownFilter.handleEvent(KeyBindingDispatcher.java:96)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
+	at org.eclipse.swt.widgets.Display.filterEvent(Display.java:1910)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1426)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1453)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1436)
+	at org.eclipse.swt.widgets.Widget.sendKeyEvent(Widget.java:1475)
+	at org.eclipse.swt.widgets.Widget.gtk_key_press_event(Widget.java:838)
+	at org.eclipse.swt.widgets.Control.gtk_key_press_event(Control.java:3983)
+	at org.eclipse.swt.widgets.Composite.gtk_key_press_event(Composite.java:889)
+	at org.eclipse.swt.widgets.Widget.windowProc(Widget.java:2342)
+	at org.eclipse.swt.widgets.Control.windowProc(Control.java:6830)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:6077)
+	at org.eclipse.swt.internal.gtk.GTK.gtk_main_do_event(Native Method)
+	at org.eclipse.swt.widgets.Display.eventProc(Display.java:1537)
+	at org.eclipse.swt.internal.gtk.OS.g_main_context_iteration(Native Method)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:4568)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1157)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1046)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:155)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:644)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:551)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:156)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:152)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:203)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:134)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:401)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:653)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:590)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1461)
+	at org.eclipse.equinox.launcher.Main.main(Main.java:1434)
+
+!ENTRY org.eclipse.jdt.ui 4 0 2021-05-02 13:41:23.443
+!MESSAGE Error retrieving proposal text.
+Display string:
+UF(Long id, String sigla, String nome) - com.hugs.entities.UF
+Pattern:
+@Builder
+public class Mesorregiao{
+	private Long id;
+	private String nome;
+	@Builder.Default
+	private UF uf = new 
+!STACK 0
+java.lang.StringIndexOutOfBoundsException: begin 0, end 114, length 61
+	at java.base/java.lang.String.checkBoundsBeginEnd(String.java:3734)
+	at java.base/java.lang.String.substring(String.java:1903)
+	at org.eclipse.jdt.internal.ui.text.java.AbstractJavaCompletionProposal.getPatternMatchRule(AbstractJavaCompletionProposal.java:929)
+	at org.eclipse.jdt.internal.ui.text.java.LazyJavaCompletionProposal.getStyledDisplayString(LazyJavaCompletionProposal.java:483)
+	at org.eclipse.jface.text.contentassist.CompletionProposalPopup.handleSetData(CompletionProposalPopup.java:878)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:5831)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1427)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1453)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1436)
+	at org.eclipse.swt.widgets.Table.checkData(Table.java:287)
+	at org.eclipse.swt.widgets.Table.cellDataProc(Table.java:225)
+	at org.eclipse.swt.widgets.Display.cellDataProc(Display.java:947)
+	at org.eclipse.swt.internal.gtk.OS.g_main_context_iteration(Native Method)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:4568)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1157)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1046)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:155)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:644)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:551)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:156)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:152)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:203)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:134)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:401)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:653)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:590)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1461)
+	at org.eclipse.equinox.launcher.Main.main(Main.java:1434)
+
+!ENTRY org.eclipse.jdt.ui 4 0 2021-05-02 13:41:23.447
+!MESSAGE Error retrieving proposal text.
+Display string:
+Mesorregiao() - com.hugs.dto.Mesorregiao
+Pattern:
+@Builder
+public class Mesorregiao{
+	private Long id;
+	private String nome;
+	@Builder.Default
+	private UF uf = new 
+!STACK 0
+java.lang.StringIndexOutOfBoundsException: begin 0, end 114, length 40
+	at java.base/java.lang.String.checkBoundsBeginEnd(String.java:3734)
+	at java.base/java.lang.String.substring(String.java:1903)
+	at org.eclipse.jdt.internal.ui.text.java.AbstractJavaCompletionProposal.getPatternMatchRule(AbstractJavaCompletionProposal.java:929)
+	at org.eclipse.jdt.internal.ui.text.java.LazyJavaCompletionProposal.getStyledDisplayString(LazyJavaCompletionProposal.java:483)
+	at org.eclipse.jface.text.contentassist.CompletionProposalPopup.handleSetData(CompletionProposalPopup.java:878)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:5831)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1427)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1453)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1436)
+	at org.eclipse.swt.widgets.Table.checkData(Table.java:287)
+	at org.eclipse.swt.widgets.Table.cellDataProc(Table.java:225)
+	at org.eclipse.swt.widgets.Display.cellDataProc(Display.java:947)
+	at org.eclipse.swt.internal.gtk.OS.g_main_context_iteration(Native Method)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:4568)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1157)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1046)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:155)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:644)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:551)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:156)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:152)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:203)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:134)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:401)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:653)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:590)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1461)
+	at org.eclipse.equinox.launcher.Main.main(Main.java:1434)
+
+!ENTRY org.eclipse.jdt.ui 4 0 2021-05-02 13:41:23.449
+!MESSAGE Error retrieving proposal text.
+Display string:
+MesorregiaoBuilder() - com.hugs.dto.Mesorregiao.MesorregiaoBuilder
+Pattern:
+@Builder
+public class Mesorregiao{
+	private Long id;
+	private String nome;
+	@Builder.Default
+	private UF uf = new 
+!STACK 0
+java.lang.StringIndexOutOfBoundsException: begin 0, end 114, length 66
+	at java.base/java.lang.String.checkBoundsBeginEnd(String.java:3734)
+	at java.base/java.lang.String.substring(String.java:1903)
+	at org.eclipse.jdt.internal.ui.text.java.AbstractJavaCompletionProposal.getPatternMatchRule(AbstractJavaCompletionProposal.java:929)
+	at org.eclipse.jdt.internal.ui.text.java.LazyJavaCompletionProposal.getStyledDisplayString(LazyJavaCompletionProposal.java:483)
+	at org.eclipse.jface.text.contentassist.CompletionProposalPopup.handleSetData(CompletionProposalPopup.java:878)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:5831)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1427)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1453)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1436)
+	at org.eclipse.swt.widgets.Table.checkData(Table.java:287)
+	at org.eclipse.swt.widgets.Table.cellDataProc(Table.java:225)
+	at org.eclipse.swt.widgets.Display.cellDataProc(Display.java:947)
+	at org.eclipse.swt.internal.gtk.OS.g_main_context_iteration(Native Method)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:4568)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1157)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1046)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:155)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:644)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:551)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:156)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:152)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:203)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:134)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:401)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:653)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:590)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1461)
+	at org.eclipse.equinox.launcher.Main.main(Main.java:1434)
+
+!ENTRY org.eclipse.jdt.ui 4 0 2021-05-02 13:41:23.450
+!MESSAGE Error retrieving proposal text.
+Display string:
+Mesorregiao - com.hugs.dto
+Pattern:
+@Builder
+public class Mesorregiao{
+	private Long id;
+	private String nome;
+	@Builder.Default
+	private UF uf = new 
+!STACK 0
+java.lang.StringIndexOutOfBoundsException: begin 0, end 114, length 26
+	at java.base/java.lang.String.checkBoundsBeginEnd(String.java:3734)
+	at java.base/java.lang.String.substring(String.java:1903)
+	at org.eclipse.jdt.internal.ui.text.java.AbstractJavaCompletionProposal.getPatternMatchRule(AbstractJavaCompletionProposal.java:929)
+	at org.eclipse.jdt.internal.ui.text.java.LazyJavaTypeCompletionProposal.getPatternToEmphasizeMatch(LazyJavaTypeCompletionProposal.java:321)
+	at org.eclipse.jdt.internal.ui.text.java.LazyJavaCompletionProposal.getStyledDisplayString(LazyJavaCompletionProposal.java:475)
+	at org.eclipse.jface.text.contentassist.CompletionProposalPopup.handleSetData(CompletionProposalPopup.java:878)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:5831)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1427)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1453)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1436)
+	at org.eclipse.swt.widgets.Table.checkData(Table.java:287)
+	at org.eclipse.swt.widgets.Table.cellDataProc(Table.java:225)
+	at org.eclipse.swt.widgets.Display.cellDataProc(Display.java:947)
+	at org.eclipse.swt.internal.gtk.OS.g_main_context_iteration(Native Method)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:4568)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1157)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1046)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:155)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:644)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:551)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:156)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:152)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:203)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:134)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:401)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:653)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:590)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1461)
+	at org.eclipse.equinox.launcher.Main.main(Main.java:1434)
+
+!ENTRY org.eclipse.jdt.ui 4 0 2021-05-02 13:41:23.451
+!MESSAGE Error retrieving proposal text.
+Display string:
+Mesorregiao - com.hugs.dto
+Pattern:
+Default
+	private UF uf = new 
+!STACK 0
+java.lang.StringIndexOutOfBoundsException: begin 0, end 29, length 26
+	at java.base/java.lang.String.checkBoundsBeginEnd(String.java:3734)
+	at java.base/java.lang.String.substring(String.java:1903)
+	at org.eclipse.jdt.internal.ui.text.java.AbstractJavaCompletionProposal.getPatternMatchRule(AbstractJavaCompletionProposal.java:929)
+	at org.eclipse.jdt.internal.ui.text.java.LazyJavaCompletionProposal.getStyledDisplayString(LazyJavaCompletionProposal.java:483)
+	at org.eclipse.jface.text.contentassist.CompletionProposalPopup.handleSetData(CompletionProposalPopup.java:878)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:5831)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1427)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1453)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1436)
+	at org.eclipse.swt.widgets.Table.checkData(Table.java:287)
+	at org.eclipse.swt.widgets.Table.cellDataProc(Table.java:225)
+	at org.eclipse.swt.widgets.Display.cellDataProc(Display.java:947)
+	at org.eclipse.swt.internal.gtk.OS.g_main_context_iteration(Native Method)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:4568)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1157)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1046)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:155)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:644)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:551)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:156)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:152)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:203)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:134)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:401)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:653)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:590)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1461)
+	at org.eclipse.equinox.launcher.Main.main(Main.java:1434)

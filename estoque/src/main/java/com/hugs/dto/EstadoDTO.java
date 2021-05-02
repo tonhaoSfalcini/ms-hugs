@@ -5,12 +5,10 @@ import lombok.Data;
 import lombok.NoArgsConstructor;
 
 @Data @NoArgsConstructor @AllArgsConstructor 
-//@Builder
-public class MicrorregiaoIbgeDTO{
+public class EstadoDTO {
+
 	private Long id;
 	private String nome;
-//	@Builder.Default
-//	private MesorregiaoIbgeDto mesorregiao = new MesorregiaoIbgeDto();
-	private MesorregiaoIbgeDto mesorregiao ;
+	private String sigla;
 	
 }
