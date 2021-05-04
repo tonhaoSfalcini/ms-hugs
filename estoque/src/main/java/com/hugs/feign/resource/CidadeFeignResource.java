@@ -16,8 +16,8 @@ import com.hugs.feign.service.CidadeFeignService;
 import com.hugs.services.CidadeService;
 
 @RestController
-@RequestMapping(value = "cidades")
-public class CidadeResource {
+@RequestMapping(value = "ibge/cidades")
+public class CidadeFeignResource {
 
 	@Autowired
 	CidadeFeignService feignService;

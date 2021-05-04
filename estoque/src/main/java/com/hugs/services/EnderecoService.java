@@ -6,6 +6,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
 import com.hugs.dto.EnderecoDTO;
+import com.hugs.entities.Cidade;
 import com.hugs.entities.Endereco;
 import com.hugs.repositories.EnderecoRepository;
 
@@ -14,28 +15,36 @@ public class EnderecoService {
 	
 	@Autowired 
 	EnderecoRepository repository;
+	
+	@Autowired 
+	CidadeService cidadeService;
 
 	public Endereco saveEndereco(EnderecoDTO dto) {
-		Endereco cliente = convertDtoToEntity(dto);
-		Endereco response = repository.save(cliente);
+		Endereco e = new Endereco(dto);
+		Endereco response = repository.save(e);
 		
 		return response;
 	}
 	
-	public List<Endereco> getClients(){
+	public Endereco updateEndereco(Long id, EnderecoDTO dto) {
+		Cidade cidade = cidadeService.getById(dto.getCidade());
+		Endereco e = repository.getOne(id);
+		
+		e.setBairro(dto.getBairro());
+		e.setCep(dto.getCep());
+		e.setCidade(cidade);
+		
+		Endereco response = repository.save(e);
+		
+		return response;
+	}
+	
+	public List<Endereco> getAll(){
 		return repository.findAll();
 	}
 	
-	public Endereco convertDtoToEntity(EnderecoDTO dto) {
-		Endereco cliente = new Endereco(	
-										null,//	dto.getId(), 
-										dto.getTipoLogradouro(),
-										dto.getNomeLogradouro(),
-										dto.getNumero(),
-										dto.getBairro(),
-										null, dto.getCep(),
-										dto.getReferencia());
-		
-		return cliente;
+	
+	public Endereco getById(Long id) {
+		return repository.getOne(id);
 	}
 }

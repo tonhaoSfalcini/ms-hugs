@@ -14,17 +14,21 @@ public class ProdutoService {
 
 	
 	@Autowired 
-	ProdutoRepository produtoRepository;
+	ProdutoRepository repository;
 
 	public Produto create(ProdutoDTO dto) {
 		Produto cliente = new Produto(dto);
-		Produto response = produtoRepository.save(cliente);
+		Produto response = repository.save(cliente);
 		
 		return response;
 	}
 	
 	public List<Produto> getAll(){
-		return produtoRepository.findAll();
+		return repository.findAll();
+	}
+	
+	public Produto getById(Long id) {
+		return repository.getOne(id);
 	}
 	
 }

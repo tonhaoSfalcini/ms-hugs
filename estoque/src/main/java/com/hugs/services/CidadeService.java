@@ -1,5 +1,7 @@
 package com.hugs.services;
 
+import java.util.List;
+
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
@@ -20,4 +22,16 @@ public class CidadeService {
 		
 		return result;
  	}
+	
+	public Cidade getById(Long id) {
+		return repository.getOne(id);
+	}
+	
+	public List<Cidade> getAll(){
+		return repository.findAll();
+	}
+
+	public List<Cidade> findByUfId(Long id) {
+		return repository.findByEstadoIdEquals(id);
+	}
 }

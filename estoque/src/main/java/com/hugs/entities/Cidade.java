@@ -12,15 +12,16 @@ import lombok.AllArgsConstructor;
 import lombok.Builder;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
+import lombok.NonNull;
+import lombok.RequiredArgsConstructor;
 import lombok.Setter;
 
-@AllArgsConstructor @NoArgsConstructor @Getter @Setter @Builder
+@AllArgsConstructor @NoArgsConstructor @Getter @Setter @Builder @RequiredArgsConstructor
 @Entity(name = "tb_cidade")
 public class Cidade {
 
 	@Setter(value = AccessLevel.NONE)
-	@Id
-//	@GeneratedValue(strategy = GenerationType.IDENTITY)
+	@Id @NonNull
 	private Long id;
 	
 	private String nome;

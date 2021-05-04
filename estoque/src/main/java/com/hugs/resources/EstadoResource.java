@@ -1,4 +1,4 @@
-package com.hugs.feign.resource;
+package com.hugs.resources;
 
 import java.util.List;
 
@@ -10,25 +10,25 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 import com.hugs.entities.Estado;
-import com.hugs.feign.service.EstadoFeignService;
+import com.hugs.services.EstadoService;
 
 @RestController
 @RequestMapping(value = "estados")
 public class EstadoResource {
 
 	@Autowired
-	EstadoFeignService service;
+	EstadoService service;
 	
 	@GetMapping
 	public ResponseEntity<List<Estado>> getAll(){
-		List<Estado> list = service.listAll();
+		List<Estado> list = service.getAll();
 		
 		return ResponseEntity.ok().body(list);
 	}
 	
 	@GetMapping(value = "/{uf}")
-	ResponseEntity<Estado> findByUf(@PathVariable Integer uf){
-		Estado estado = service.findByUf(uf);
+	ResponseEntity<Estado> findByUf(@PathVariable Long id){
+		Estado estado = service.getById(id);
 		
 		return ResponseEntity.ok().body(estado);
 	}

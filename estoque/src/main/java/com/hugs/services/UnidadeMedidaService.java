@@ -15,18 +15,23 @@ public class UnidadeMedidaService {
 
 	
 	@Autowired 
-	UnidadeMedidaRepository unidadeMedidaRepository;
+	UnidadeMedidaRepository repository;
 
 	public UnidadeMedida create(UnidadeMedidaDTO dto) {
 		UnidadeMedida obj = new UnidadeMedida(dto);
 		obj.setDataCadastro(LocalDateTime.now());
-		UnidadeMedida response = unidadeMedidaRepository.save(obj);
+		UnidadeMedida response = repository.save(obj);
 		
 		return response;
 	}
 	
 	public List<UnidadeMedida> getAll(){
-		return unidadeMedidaRepository.findAll();
+		return repository.findAll();
 	}
+	
+	public UnidadeMedida getById(Long id) {
+		return repository.getOne(id);
+	}
+	
 	
 }
