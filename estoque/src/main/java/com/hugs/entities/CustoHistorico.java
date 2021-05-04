@@ -12,11 +12,12 @@ import javax.persistence.ManyToOne;
 
 import lombok.AccessLevel;
 import lombok.AllArgsConstructor;
+import lombok.Builder;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
 import lombok.Setter;
 
-@AllArgsConstructor @NoArgsConstructor @Getter @Setter
+@AllArgsConstructor @NoArgsConstructor @Getter @Setter @Builder
 @Entity(name = "tb_custohistorico")
 public class CustoHistorico {
 
@@ -32,7 +33,7 @@ public class CustoHistorico {
 	
 	@ManyToOne
 	@JoinColumn(name = "unidadeMedida_id", nullable = false)
-	private UnidadeMedida unidadeMedida;
+	@Builder.Default private UnidadeMedida unidadeMedida = new UnidadeMedida();
 
 	private BigDecimal valorUnitario;
 	

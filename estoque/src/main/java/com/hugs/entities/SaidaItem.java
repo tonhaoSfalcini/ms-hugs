@@ -3,6 +3,7 @@ package com.hugs.entities;
 import java.math.BigDecimal;
 import java.time.LocalDateTime;
 
+import javax.persistence.Column;
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
@@ -24,6 +25,7 @@ public class SaidaItem {
 	@Id @GeneratedValue(strategy = GenerationType.IDENTITY)
 	private Long id;
 	
+	@Column(nullable = false)
 	private LocalDateTime dataCadastro;
 	
 	@ManyToOne
@@ -34,6 +36,7 @@ public class SaidaItem {
 	@JoinColumn(name = "produto_id", nullable = false)
 	private Produto produto;
 	
+	@Column(nullable = false)
 	private BigDecimal quantidade;
 	
 }

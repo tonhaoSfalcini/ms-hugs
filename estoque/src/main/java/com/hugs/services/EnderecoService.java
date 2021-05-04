@@ -38,17 +38,4 @@ public class EnderecoService {
 		
 		return cliente;
 	}
-	
-	public EnderecoDTO convertEntityToDto(Endereco endereco) {
-		EnderecoDTO dto = new EnderecoDTO(
-										endereco.getTipoLogradouro(), 
-										endereco.getNomeLogradouro(),
-										endereco.getNumero(),
-										endereco.getBairro(),
-										endereco.getCidade().getId(),
-										endereco.getCep(),
-										endereco.getReferencia());
-		
-		return dto;
-	}
 }

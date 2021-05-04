@@ -12,8 +12,7 @@ import com.hugs.dto.CidadeIbgeDTO;
 public interface CidadeFeignService {
 
 	@GetMapping(value = "/municipios")
-	String listAll();
-//	List<CidadeIbgeDTO> listAll();
+	List<CidadeIbgeDTO> listAll();
 	
 	@GetMapping(value = "/municipios/{codigo}")
 	CidadeIbgeDTO findByCodigo(@PathVariable Integer codigo);

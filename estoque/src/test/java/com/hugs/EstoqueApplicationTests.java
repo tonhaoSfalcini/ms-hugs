@@ -2,14 +2,17 @@ package com.hugs;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
-import org.springframework.cloud.openfeign.EnableFeignClients;
+
+import com.fasterxml.jackson.core.JsonProcessingException;
+import com.fasterxml.jackson.databind.JsonMappingException;
+
 
 @SpringBootTest
-@EnableFeignClients
 class EstoqueApplicationTests {
 
 	@Test
-	void contextLoads() {
+	void contextLoads() throws JsonMappingException, JsonProcessingException {
+
 		
 	}
 

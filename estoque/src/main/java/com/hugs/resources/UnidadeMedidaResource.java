@@ -13,42 +13,36 @@ import org.springframework.web.bind.annotation.RestController;
 
 import com.fasterxml.jackson.core.JsonProcessingException;
 import com.fasterxml.jackson.databind.ObjectMapper;
-import com.hugs.dto.ClienteDTO;
-import com.hugs.entities.Cliente;
-import com.hugs.services.ClienteService;
+import com.hugs.dto.UnidadeMedidaDTO;
+import com.hugs.entities.UnidadeMedida;
+import com.hugs.services.UnidadeMedidaService;
 
 @RestController
-@RequestMapping(value = "clients")
-public class ClienteResource {
+@RequestMapping(value = "medidas")
+public class UnidadeMedidaResource {
 
 	@Autowired
-	ClienteService clienteService;
-
-
+	UnidadeMedidaService unidadeMedidaService;
+	
 	@PostMapping()
-	public ResponseEntity<Cliente> insertCliente(@RequestBody ClienteDTO dto){
+	public ResponseEntity<UnidadeMedida> insertCliente(@RequestBody UnidadeMedidaDTO dto){
 
-		Cliente cliente = clienteService.create(dto);
+		UnidadeMedida result = unidadeMedidaService.create(dto);
 
-		return ResponseEntity.ok().body(cliente);
+		return ResponseEntity.ok().body(result);
 	}
-
 	@GetMapping
-	public ResponseEntity<List<Cliente>> getAll(){
-		List<Cliente> clients = clienteService.getAll();
+	public ResponseEntity<List<UnidadeMedida>> getAll(){
+		List<UnidadeMedida> result = unidadeMedidaService.getAll();
 
-		return ResponseEntity.ok().body(clients);
+		return ResponseEntity.ok().body(result);
 	}
-
-
-
-
 
 	@GetMapping(value = "/params", produces = MediaType.APPLICATION_JSON_VALUE)
 	public ResponseEntity<String> getParamsInsertCliente() throws JsonProcessingException{
 		StringBuilder sb = new StringBuilder();
 		ObjectMapper obj = new ObjectMapper();
-		sb.append(obj.writeValueAsString(new Cliente()));
+		sb.append(obj.writeValueAsString(new UnidadeMedida()));
 		
 		return ResponseEntity.ok().body(sb.toString());
 	}

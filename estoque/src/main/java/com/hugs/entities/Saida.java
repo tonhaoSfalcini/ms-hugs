@@ -4,6 +4,7 @@ import java.time.LocalDate;
 import java.time.LocalDateTime;
 import java.util.List;
 
+import javax.persistence.Column;
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
@@ -24,10 +25,13 @@ public class Saida {
 	@Id @GeneratedValue(strategy = GenerationType.IDENTITY)
 	private Long id;
 
+	@Column(nullable = false)
 	private LocalDateTime dataCadastro;
 	
+	@Column(nullable = false)
 	private LocalDate dataMovimento;
 	
+	@Column(nullable = false)
 	private String motivo;
 	
 	@OneToMany(mappedBy = "saida")

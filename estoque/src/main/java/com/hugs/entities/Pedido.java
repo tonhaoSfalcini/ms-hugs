@@ -3,6 +3,7 @@ package com.hugs.entities;
 import java.time.LocalDate;
 import java.time.LocalDateTime;
 
+import javax.persistence.Column;
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
@@ -12,11 +13,12 @@ import javax.persistence.ManyToOne;
 
 import lombok.AccessLevel;
 import lombok.AllArgsConstructor;
+import lombok.Builder;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
 import lombok.Setter;
 
-@AllArgsConstructor @NoArgsConstructor @Getter @Setter
+@AllArgsConstructor @NoArgsConstructor @Getter @Setter @Builder
 @Entity(name = "tb_pedido")
 public class Pedido {
 
@@ -24,13 +26,14 @@ public class Pedido {
 	@Id @GeneratedValue(strategy = GenerationType.IDENTITY)
 	private Long id;
 	
-	private LocalDateTime dataCadastro;
+	@Column(nullable = false)
+	@Builder.Default private LocalDateTime dataCadastro = LocalDateTime.now();
 
 	private LocalDate dataEntrega;
 
 	@ManyToOne
 	@JoinColumn(name = "cliente_id", nullable = false)
-	private Cliente cliente;
+	@Builder.Default private Cliente cliente = new Cliente();
 	
 	private Boolean entrega;
 	

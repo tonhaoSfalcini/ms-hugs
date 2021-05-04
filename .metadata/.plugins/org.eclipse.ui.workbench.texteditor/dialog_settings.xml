@@ -6,11 +6,16 @@
 		<item key="wholeword" value="false"/>
 		<item key="incremental" value="false"/>
 		<item key="isRegEx" value="false"/>
-		<item key="selection" value="Endereco"/>
+		<item key="selection" value="UnidadeMedida"/>
 		<list key="findhistory">
+			<item value="Produto"/>
+			<item value="produto"/>
+			<item value="jackson"/>
 			<item value="Cliente"/>
 		</list>
 		<list key="replacehistory">
+			<item value="UnidadeMedida"/>
+			<item value="unidadeMedida"/>
 			<item value="Endereco"/>
 		</list>
 	</section>
