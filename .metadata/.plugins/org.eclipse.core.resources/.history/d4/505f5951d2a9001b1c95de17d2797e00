@@ -1,8 +1,0 @@
-package com.hugs.feign.service;
-
-import org.springframework.cloud.openfeign.FeignClient;
-
-@FeignClient(url="https://servicodados.ibge.gov.br/api/v1/localidades/estados", name="estados")
-public interface EstadoService {
-
-}
