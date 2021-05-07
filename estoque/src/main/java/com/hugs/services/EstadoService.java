@@ -14,20 +14,25 @@ public class EstadoService {
 
 	@Autowired
 	EstadoRepository repository;
-	
+
 	public Estado save(EstadoDTO dto) {
 		Estado estado = new Estado(dto);
-		
-		Estado result = repository.save(estado);
-		
-		return result;
- 	}
-	
+
+		return save(estado);
+	}
+
 	public Estado getById(Long id) {
 		return repository.getOne(id);
 	}
 
 	public List<Estado> getAll(){
 		return repository.findAll();
+	}
+
+	public Estado save(Estado obj) {
+		Estado result = repository.save(obj);
+
+		return result;
+
 	}
 }

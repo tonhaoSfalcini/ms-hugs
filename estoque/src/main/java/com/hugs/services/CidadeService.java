@@ -18,9 +18,7 @@ public class CidadeService {
 	public Cidade save(CidadeIbgeDTO dto) {
 		Cidade cidade = new Cidade(dto);
 		
-		Cidade result = repository.save(cidade);
-		
-		return result;
+		return save(cidade);
  	}
 	
 	public Cidade getById(Long id) {
@@ -33,5 +31,12 @@ public class CidadeService {
 
 	public List<Cidade> findByUfId(Long id) {
 		return repository.findByEstadoIdEquals(id);
+	}
+
+	public Cidade save(Cidade obj) {
+
+		Cidade result = repository.save(obj);
+		
+		return result;
 	}
 }

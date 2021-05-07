@@ -1,7 +1,10 @@
 package com.hugs;
 
+import java.util.Arrays;
 import java.util.List;
 
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.CommandLineRunner;
 import org.springframework.boot.SpringApplication;
@@ -13,17 +16,26 @@ import com.fasterxml.jackson.core.type.TypeReference;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import com.hugs.entities.Cidade;
 import com.hugs.entities.Estado;
-import com.hugs.repositories.CidadeRepository;
-import com.hugs.repositories.EstadoRepository;
+import com.hugs.entities.UnidadeMedida;
+import com.hugs.services.CidadeService;
+import com.hugs.services.EstadoService;
+import com.hugs.services.UnidadeMedidaService;
+
 
 @SpringBootApplication
 @EnableFeignClients
 public class EstoqueApplication implements CommandLineRunner{
 
+	Logger log = LoggerFactory.getLogger(EstoqueApplication.class);
+
 	@Autowired
-	CidadeRepository cidadeRep;
+	CidadeService cidadeService;
 	@Autowired
-	EstadoRepository estadoRep;
+	EstadoService estadoService;
+	@Autowired
+	UnidadeMedidaService unidadeMedidaService;
+	@Autowired
+	RestTemplate restTemplate;
 
 	public static void main(String[] args) {
 		SpringApplication.run(EstoqueApplication.class, args);
@@ -31,24 +43,46 @@ public class EstoqueApplication implements CommandLineRunner{
 
 	@Override
 	public void run(String... args) throws Exception {
-		RestTemplate rest = new RestTemplate();
-		ObjectMapper mapper = new ObjectMapper();
+ 		ObjectMapper mapper = new ObjectMapper();
 		String response= "";
 		String pathLocalHost = "http://localhost:8001";
 
-		response= rest.getForObject(pathLocalHost+"/estados", String.class);
+		log.info("Começando a importar");
+
+		response= restTemplate.getForObject(pathLocalHost+"/ibge/estados", String.class);
 		List<Estado> estados = mapper.readValue(response, new TypeReference<List<Estado>>(){});
+		log.info("Estados listados");
+
 		for (Estado obj: estados) {
-			estadoRep.save(obj);
+			if(estadoService.getById(obj.getId()) == null){
+				estadoService.save(obj);
+			}
+		}
+		log.info("Estados importados");
+
+		for(Estado estado : estados) {
+			log.info(">> Estado "+estado.getSigla());
+			
+			response= restTemplate.getForObject(pathLocalHost+"/ibge/cidades/estados/"+estado.getId()+"/municipios", String.class);
+			List<Cidade> cidades = mapper.readValue(response, new TypeReference<List<Cidade>>(){});
+			log.info(cidades.size()+" cidades listadas");
+
+			for (Cidade obj: cidades) {
+				if(cidadeService.getById(obj.getId()) == null){
+					cidadeService.save(obj);
+				}
+			}
+			log.info("Cidades importadas"); 
 		}
 
+		UnidadeMedida unim_1 = new UnidadeMedida(1L, "Kilograma", "Kg", null);
+		UnidadeMedida unim_2 = new UnidadeMedida(1L, "Unidade", "Und", null);
+		UnidadeMedida unim_3 = new UnidadeMedida(1L, "Grama", "g", null);
+		UnidadeMedida unim_4 = new UnidadeMedida(1L, "Miligrama", "mg", null);
+		UnidadeMedida unim_5 = new UnidadeMedida(1L, "Mililitro", "ml", null);
+		unidadeMedidaService.saveAll(Arrays.asList(unim_1, unim_2, unim_3, unim_4, unim_5));
+		log.info("Unidades de Medida inseridas");
 
-		response= rest.getForObject(pathLocalHost+"/cidades/municipios", String.class);
-
-		List<Cidade> cidades = mapper.readValue(response, new TypeReference<List<Cidade>>(){});
-		for (Cidade obj: cidades) {
-			cidadeRep.save(obj);
-		}
 	}
 
 }

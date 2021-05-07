@@ -27,7 +27,7 @@ public class UnidadeMedidaResource {
 	@PostMapping()
 	public ResponseEntity<UnidadeMedida> insertCliente(@RequestBody UnidadeMedidaDTO dto){
 
-		UnidadeMedida result = unidadeMedidaService.create(dto);
+		UnidadeMedida result = unidadeMedidaService.save(dto);
 
 		return ResponseEntity.ok().body(result);
 	}
