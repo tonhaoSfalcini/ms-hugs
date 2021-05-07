@@ -39,4 +39,9 @@ public class CidadeService {
 		
 		return result;
 	}
+
+	public List<Cidade> saveAll(List<Cidade> obj) {
+		
+		return repository.saveAll(obj);
+	}
 }

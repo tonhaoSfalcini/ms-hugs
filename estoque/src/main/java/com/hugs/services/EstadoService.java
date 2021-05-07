@@ -21,6 +21,10 @@ public class EstadoService {
 		return save(estado);
 	}
 
+	public List<Estado> saveAll(List<Estado> list) {
+		return repository.saveAll(list);
+	}
+
 	public Estado getById(Long id) {
 		return repository.getOne(id);
 	}

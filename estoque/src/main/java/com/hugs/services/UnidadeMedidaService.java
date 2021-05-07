@@ -32,8 +32,9 @@ public class UnidadeMedidaService {
 	}
 
 	public UnidadeMedida save(UnidadeMedida obj) {
+		if(obj.getDataCadastro() == null)obj.setDataCadastro(LocalDateTime.now());
+		
 		UnidadeMedida response = repository.save(obj);
-		obj.setDataCadastro(LocalDateTime.now());
 
 		return response;		
 	}
