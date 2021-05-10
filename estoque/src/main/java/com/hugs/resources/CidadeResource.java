@@ -22,7 +22,7 @@ public class CidadeResource {
 	@GetMapping()
 	public ResponseEntity<List<Cidade>> getAll(){
 		
-		List<Cidade> list = service.getAll();
+		List<Cidade> list = service.getListAll();
 		return ResponseEntity.ok().body(list);
 	}
 	

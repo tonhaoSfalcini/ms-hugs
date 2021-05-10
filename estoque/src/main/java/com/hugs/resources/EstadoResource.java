@@ -21,7 +21,7 @@ public class EstadoResource {
 	
 	@GetMapping
 	public ResponseEntity<List<Estado>> getAll(){
-		List<Estado> list = service.getAll();
+		List<Estado> list = service.getListAll();
 		
 		return ResponseEntity.ok().body(list);
 	}

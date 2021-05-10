@@ -2,8 +2,11 @@ package com.hugs.services;
 
 import java.time.LocalDateTime;
 import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.List;
 
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
@@ -13,6 +16,7 @@ import com.hugs.repositories.UnidadeMedidaRepository;
 
 @Service
 public class UnidadeMedidaService {
+	Logger log = LoggerFactory.getLogger(EstadoService.class);
 
 
 	@Autowired 
@@ -43,5 +47,15 @@ public class UnidadeMedidaService {
 		List<UnidadeMedida> response = new ArrayList<UnidadeMedida>();
 		list.forEach(x -> response.add(save(x)));
 		return response;
+	}
+	
+	public void loadInitialData() {
+		UnidadeMedida unim_1 = new UnidadeMedida(1L, "Kilograma", "Kg", null);
+		UnidadeMedida unim_2 = new UnidadeMedida(1L, "Unidade", "Und", null);
+		UnidadeMedida unim_3 = new UnidadeMedida(1L, "Grama", "g", null);
+		UnidadeMedida unim_4 = new UnidadeMedida(1L, "Miligrama", "mg", null);
+		UnidadeMedida unim_5 = new UnidadeMedida(1L, "Mililitro", "ml", null);
+		saveAll(Arrays.asList(unim_1, unim_2, unim_3, unim_4, unim_5));
+		log.info("Unidades de Medida inseridas");
 	}
 }
