@@ -74,11 +74,12 @@ public class CidadeService {
 	public List<Cidade> readAllFromFeignByUf(Estado estado) throws JsonMappingException, JsonProcessingException{
 		ObjectMapper mapper = new ObjectMapper();
 		String result = restTemplate.getForObject(pathLocalHost+"/ibge/cidades/estados/"+estado.getId()+"/municipios", String.class);
-		List<CidadeIbgeDTO> dtoList = mapper.readValue(result, new TypeReference<List<CidadeIbgeDTO>>(){});
+		List<Cidade> dtoList = mapper.readValue(result, new TypeReference<List<Cidade>>(){});
 		log.info(">> "+estado.getSigla() +" > "+ dtoList.size()+" cidades listadas");
-		List<Cidade> cidadesList = new ArrayList<>(); 
-		dtoList.parallelStream().forEach(z -> cidadesList.add(new Cidade(z)));
-		return cidadesList;
+//		List<Cidade> cidadesList = new ArrayList<>(); 
+//		dtoList.parallelStream().forEach(z -> cidadesList.add(new Cidade(z)));
+//		return cidadesList;
+		return dtoList;
 	}
 
 	public void loadCidadesFromFeignIbge() {
@@ -87,12 +88,11 @@ public class CidadeService {
 		estados.parallelStream()
 		.forEach( x -> {
 		log.info(">> "+x.getSigla());
-			List<Cidade> cidadesList = null;
+			List<Cidade> cidadesList = new ArrayList<Cidade>();
 			try {
 				cidadesList = readAllFromFeignByUf(x);
 			} catch (JsonProcessingException e) {
-				// TODO Auto-generated catch block
-				e.printStackTrace();
+				log.error("Erro ao buscar cidades de "+x.getSigla(), e);
 			} 
 			log.info(">> "+x.getSigla() +" > "+ cidadesList.size()+" cidades listadas");
 			saveAll(cidadesList.parallelStream().filter(y -> Objects.isNull(mapCidadesBd.get(y.getId()))).collect(Collectors.toList()));

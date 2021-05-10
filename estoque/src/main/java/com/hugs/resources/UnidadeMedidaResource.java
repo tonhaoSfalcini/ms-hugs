@@ -39,7 +39,7 @@ public class UnidadeMedidaResource {
 	}
 
 	@GetMapping(value = "/params", produces = MediaType.APPLICATION_JSON_VALUE)
-	public ResponseEntity<String> getParamsInsertCliente() throws JsonProcessingException{
+	public ResponseEntity<String> getParamsInsert() throws JsonProcessingException{
 		StringBuilder sb = new StringBuilder();
 		ObjectMapper obj = new ObjectMapper();
 		sb.append(obj.writeValueAsString(new UnidadeMedida()));
