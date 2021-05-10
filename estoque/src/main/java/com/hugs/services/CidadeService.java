@@ -76,9 +76,6 @@ public class CidadeService {
 		String result = restTemplate.getForObject(pathLocalHost+"/ibge/cidades/estados/"+estado.getId()+"/municipios", String.class);
 		List<Cidade> dtoList = mapper.readValue(result, new TypeReference<List<Cidade>>(){});
 		log.info(">> "+estado.getSigla() +" > "+ dtoList.size()+" cidades listadas");
-//		List<Cidade> cidadesList = new ArrayList<>(); 
-//		dtoList.parallelStream().forEach(z -> cidadesList.add(new Cidade(z)));
-//		return cidadesList;
 		return dtoList;
 	}
 
