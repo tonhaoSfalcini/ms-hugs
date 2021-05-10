@@ -91,7 +91,6 @@ public class CidadeService {
 			} catch (JsonProcessingException e) {
 				log.error("Erro ao buscar cidades de "+x.getSigla(), e);
 			} 
-			log.info(">> "+x.getSigla() +" > "+ cidadesList.size()+" cidades listadas");
 			saveAll(cidadesList.parallelStream().filter(y -> Objects.isNull(mapCidadesBd.get(y.getId()))).collect(Collectors.toList()));
 			log.info(">> "+x.getSigla() +" > Cidades importadas"); 
 	});

@@ -10,19 +10,15 @@ import javax.persistence.Id;
 
 import com.hugs.dto.UnidadeMedidaDTO;
 
-import lombok.AccessLevel;
 import lombok.AllArgsConstructor;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
-import lombok.NonNull;
-import lombok.RequiredArgsConstructor;
 import lombok.Setter;
 
-@AllArgsConstructor @NoArgsConstructor @Getter @Setter @RequiredArgsConstructor
+@AllArgsConstructor @NoArgsConstructor @Getter @Setter
 @Entity(name = "tb_unidademedida")
 public class UnidadeMedida {
 
-	@Setter(value = AccessLevel.NONE) @NonNull
 	@Id @GeneratedValue(strategy = GenerationType.IDENTITY)
 	private Long id;
 	

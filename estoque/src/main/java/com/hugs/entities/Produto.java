@@ -56,7 +56,7 @@ public class Produto {
 		this.cor = dto.getCor();
 		this.marca = dto.getMarca();
 		this.especificacao = dto.getEspecificacao();
-		this.unidadeMedida = new UnidadeMedida(dto.getUnidadeMedida());
+		this.unidadeMedida = new UnidadeMedida(dto.getUnidadeMedida(), null, null, null);
 		this.categoria = dto.getCategoria();
 		this.mesesDurabilidade = dto.getMesesDurabilidade();
 		this.modeloArmazenamento = dto.getModeloArmazenamento();

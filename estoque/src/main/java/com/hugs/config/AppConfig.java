@@ -33,7 +33,7 @@ public class AppConfig {
 		LOGGER.debug("Creating Async Task Executor");
 		final ThreadPoolTaskExecutor executor = new ThreadPoolTaskExecutor();
 		executor.setCorePoolSize(2);
-		executor.setMaxPoolSize(5);
+		executor.setMaxPoolSize(10);
 		executor.setQueueCapacity(100);
 		executor.setThreadNamePrefix("HugsThread-");
 		executor.initialize();

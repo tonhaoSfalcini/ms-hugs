@@ -36,9 +36,11 @@ public class UnidadeMedidaService {
 	}
 
 	public UnidadeMedida save(UnidadeMedida obj) {
-		if(obj.getDataCadastro() == null)obj.setDataCadastro(LocalDateTime.now());
+		if(obj.getDataCadastro() == null) {
+			obj.setDataCadastro(LocalDateTime.now());
+		}
 		
-		UnidadeMedida response = repository.save(obj);
+		UnidadeMedida response = repository.saveAndFlush(obj);
 
 		return response;		
 	}
@@ -50,11 +52,11 @@ public class UnidadeMedidaService {
 	}
 	
 	public void loadInitialData() {
-		UnidadeMedida unim_1 = new UnidadeMedida(1L, "Kilograma", "Kg", null);
-		UnidadeMedida unim_2 = new UnidadeMedida(1L, "Unidade", "Und", null);
-		UnidadeMedida unim_3 = new UnidadeMedida(1L, "Grama", "g", null);
-		UnidadeMedida unim_4 = new UnidadeMedida(1L, "Miligrama", "mg", null);
-		UnidadeMedida unim_5 = new UnidadeMedida(1L, "Mililitro", "ml", null);
+		UnidadeMedida unim_1 = new UnidadeMedida(null, "Kilograma", "Kg", null);
+		UnidadeMedida unim_2 = new UnidadeMedida(null, "Unidade", "Und", null);
+		UnidadeMedida unim_3 = new UnidadeMedida(null, "Grama", "g", null);
+		UnidadeMedida unim_4 = new UnidadeMedida(null, "Miligrama", "mg", null);
+		UnidadeMedida unim_5 = new UnidadeMedida(null, "Mililitro", "ml", null);
 		saveAll(Arrays.asList(unim_1, unim_2, unim_3, unim_4, unim_5));
 		log.info("Unidades de Medida inseridas");
 	}

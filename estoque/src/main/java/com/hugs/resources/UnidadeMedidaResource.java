@@ -24,13 +24,21 @@ public class UnidadeMedidaResource {
 	@Autowired
 	UnidadeMedidaService unidadeMedidaService;
 	
+	
 	@PostMapping()
-	public ResponseEntity<UnidadeMedida> insertCliente(@RequestBody UnidadeMedidaDTO dto){
+	public ResponseEntity<UnidadeMedida> insert(@RequestBody UnidadeMedidaDTO dto){
 
 		UnidadeMedida result = unidadeMedidaService.save(dto);
 
 		return ResponseEntity.ok().body(result);
 	}
+
+	@PostMapping(value="initialData")
+	public ResponseEntity<String> loadInitialData(){
+		unidadeMedidaService.loadInitialData();
+		return ResponseEntity.ok().body("Processado com sucesso");
+	}
+	
 	@GetMapping
 	public ResponseEntity<List<UnidadeMedida>> getAll(){
 		List<UnidadeMedida> result = unidadeMedidaService.getAll();
